@@ -147,21 +147,40 @@ function topUp() {
 
    var telText= $(telNumber).val();
    var telNum= telText.replace('-','');
+
+
+   if (telNum.length !==10 ) {
+       alert("invalid number");
+       return;
+   }
+
+
+
+   const regex = /07[1,2,5,6,7,8][0-9]+/;
+   const input= telNum;
+   let matches;
+   matches= regex.test(input);
+
+
+
+   if(!matches){
+      alert('invalid phone number');
+      return
+   }
    $.ajax({
       type: "GET",
       url: homeURL + "/send/?tele="+telNum,
       dataType: "json",
       timeout: 10000,
       success: function (data) {
+         $(telNumber).val('');
          var dataAr = data;
          var statusCode = dataAr.statusCode;
-         var statusDetail = dataAr.statusDetail;
          if (statusCode == "S1000") {
-
-            alert(statusDetail);
+            alert(dataAr.statusDetail);
             $.mobile.changePage("#pageTopUp", {transition: "fade"});
          } else {
-            alert(statusDetail);
+            alert(dataAr.statusDetails);
             $.mobile.changePage("#pageTopUp", {transition: "fade"});
          }
       },

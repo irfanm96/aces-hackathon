@@ -17,7 +17,7 @@
         <hr>
 
         <div class="col-md-12">
-            <input type="tel" name="name" id="telNumber" class="form-control tel" value=""/>
+            <input type="tel" name="name" id="telNumber" class="form-control tel" value="" style="text-align: center" readonly/>
             <div style="overflow-x:auto;">
                 <table>
                     <tr>
@@ -118,13 +118,14 @@
                     </tr>
                     <tr>
                         <td>
-                            <button onclick="clearNum()" class="w3-btn w3-btn-block w3-blue" >Clear</button>
+                            <svg onclick="clearNum()" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M22 3H7c-.69 0-1.23.35-1.59.88L0 12l5.41 8.11c.36.53.9.89 1.59.89h15c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-3 12.59L17.59 17 14 13.41 10.41 17 9 15.59 12.59 12 9 8.41 10.41 7 14 10.59 17.59 7 19 8.41 15.41 12 19 15.59z"/></svg>
 
                         </td>
                         <td>
+                            <svg onclick="clearAll()" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M5 13h14v-2H5v2zm-2 4h14v-2H3v2zM7 7v2h14V7H7z"/></svg>
                         </td>
                         <td>
-                            <button onclick="topUp()" class="w3-btn w3-btn-block w3-blue" >Confirm</button>
+                            <svg onclick="topUp()" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M18 7l-1.41-1.41-6.34 6.34 1.41 1.41L18 7zm4.24-1.41L11.66 16.17 7.48 12l-1.41 1.41L11.66 19l12-12-1.42-1.41zM.41 13.41L6 19l1.41-1.41L1.83 12 .41 13.41z"/></svg>
                         </td>
 
                     </tr>
@@ -188,11 +189,6 @@
                 textNum += '-';
             }
 
-            if (textNum.length > 11) {
-                alert("invalid number");
-                $(telNumber).val('');
-                return;
-            }
 
 
             $(telNumber).val(textNum);
@@ -210,5 +206,9 @@
 
         }
         $('#telNumber').val(newStr);
+    }
+    function clearAll() {
+
+        $('#telNumber').val('');
     }
 </script>
