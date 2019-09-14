@@ -1,0 +1,128 @@
+<h3 class="w3-text-light-blue">Version 2.2.4</h3>
+<hr>
+
+<div class="nd2-card">
+    <div class="card-title has-avatar ">
+        <h3 class="card-primary-title">Dashboard</h3>
+        <hr>
+        <h3 class="card-primary-title">Test User</h3>
+        </h5>
+    </div>
+
+</div>
+
+<div class="nd2-card">
+    <div class="card-title has-avatar ">
+        <h3 class="card-primary-title">Data Usage</h3>
+        <hr>
+
+        <div class="col-md-12">
+            <div class="nd2-card">
+                <meter low=".25" optimum=".8" high=".75" value=".6" style="width: 100%">60%</meter>
+
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <button class="w3-btn w3-btn-block w3-green" id="Reward"  onclick="goTo('pageReward')">Reward</button>
+
+                </div>
+                <div class="col-md-6">
+                    <button class="w3-btn w3-btn-block w3-blue" id="topUp" onclick="goTo('pageTopUp')">TopUp</button>
+
+                </div>
+            </div>
+
+        </div>
+
+        <br>
+        <hr>
+        <!--    <p class="w3-center">Powered by CEYKOD Solutions</p>-->
+
+        <div class="w3-container w3-center">
+            <a class="contact-ico-a" href="https://www.facebook.com/ceykod/" target="_blank">
+                <img class="w3-grayscale-max contact-ico" src="images/ico/facebook-128.png"/>
+            </a>
+
+            <a class="contact-ico-a" href="https://twitter.com/ceykod_s">
+                <img class="w3-grayscale-max contact-ico" src="images/ico/twitter-128.png"/>
+            </a>
+
+            <a class="contact-ico-a" href="https://github.com/ceykod">
+                <img class="w3-grayscale-max contact-ico" src="images/ico/github-128.png"/>
+            </a>
+
+            <a class="contact-ico-a" href="https://www.youtube.com/channel/UCkqfYRsQvk6eMpwyJFSKtDw">
+                <img class="w3-grayscale-max contact-ico" src="images/ico/youtube-128.png"/>
+            </a>
+            </p>
+        </div>
+
+    </div>
+</div>
+<div id="debugConsole" class="nd2-card  w3-hide">
+    <div class="card-title has-avatar ">
+        <h3 class="card-primary-title">Current Status</h3>
+        <hr>
+        <p>
+            Subjects version: <span id="versionSubj">1</span><br>
+            Timetable version: <span id="versionTimetable">1</span><br>
+        </p>
+
+        <p class="w3-center">
+            <span class="uName"></span> (<span class="eNum"></span>)
+        </p>
+    </div>
+</div>
+
+
+<script>
+    $(document).ready(function () {
+
+        $('.num').click(function () {
+            var num = $(this);
+            var text = $.trim(num.find('.txt').clone().children().remove().end().text());
+
+            var telNumber = $('#telNumber');
+
+            var textNum = telNumber.val() + text;
+            if (textNum.length === 3) {
+                textNum += '-';
+            }
+
+
+
+            $(telNumber).val(textNum);
+        });
+
+    });
+
+    function clearNum() {
+        var telNumber = $('#telNumber').val();
+        var newStr;
+        if(telNumber.length===4){
+             newStr = telNumber.substring(0, telNumber.length - 2);
+        }else {
+            newStr = telNumber.substring(0, telNumber.length - 1);
+
+        }
+        $('#telNumber').val(newStr);
+    }
+    function clearAll() {
+
+        $('#telNumber').val('');
+    }
+
+    function goTo(page) {
+        if (page === 'pageTopUp') {
+            $.mobile.changePage("#pageTopUp", {
+                transition: "fade"
+            });
+        } else if (page === 'pageReward') {
+            $.mobile.changePage("#pageReward", {
+                transition: "fade"
+            });
+        } else {
+        }
+
+    }
+</script>

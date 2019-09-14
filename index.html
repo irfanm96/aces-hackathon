@@ -501,9 +501,10 @@
         <nd2-include data-src="res/html_about.html"></nd2-include>
     </div>
 </div>
-<div data-role="page" id="pageTopUp">
+<!--top up page-->
+<div data-role="page" id="pageReward">
     <div data-role="header" data-position="fixed" class="wow fadeInDown" data-wow-delay="0.2s">
-        <a href="#home" class="ui-btn ui-btn-left wow fadeIn" data-wow-delay='0.8s'>
+        <a href="#pageDashboard" class="ui-btn ui-btn-left wow fadeIn" data-wow-delay='0.8s'>
             <i class="zmdi zmdi-chevron-left"></i>
         </a>
 
@@ -514,6 +515,34 @@
         <nd2-include data-src="res/html_about.html"></nd2-include>
     </div>
 </div>
+
+<div data-role="page" id="pageDashboard">
+    <div data-role="header" data-position="fixed" class="wow fadeInDown" data-wow-delay="0.2s">
+        <a href="#pageDashboard" class="ui-btn ui-btn-left wow fadeIn" data-wow-delay='0.8s'>
+            <i class="zmdi zmdi-chevron-left"></i>
+        </a>
+
+        <h1 class="wow fadeIn" data-wow-delay='0.5s'>Eco Credits</h1>
+    </div>
+
+    <div data-role="main" class="ui-content">
+        <nd2-include data-src="res/dashboard.html"></nd2-include>
+    </div>
+</div>
+<div data-role="page" id="pageTopUp">
+    <div data-role="header" data-position="fixed" class="wow fadeInDown" data-wow-delay="0.2s">
+        <a href="#pageDashboard" class="ui-btn ui-btn-left wow fadeIn" data-wow-delay='0.8s'>
+            <i class="zmdi zmdi-chevron-left"></i>
+        </a>
+
+        <h1 class="wow fadeIn" data-wow-delay='0.5s'>Eco Credits</h1>
+    </div>
+
+    <div data-role="main" class="ui-content">
+        <nd2-include data-src="res/top-up.html"></nd2-include>
+    </div>
+</div>
+
 
 <!-- Page Contacts ------------------------------------------------------------------------------>
 <div data-role="page" id="pageContact">

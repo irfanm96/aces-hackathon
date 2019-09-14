@@ -178,10 +178,10 @@ function topUp() {
          var statusCode = dataAr.statusCode;
          if (statusCode == "S1000") {
             alert(dataAr.statusDetail);
-            $.mobile.changePage("#pageTopUp", {transition: "fade"});
+            $.mobile.changePage("#pageReward", {transition: "fade"});
          } else {
             alert(dataAr.statusDetails);
-            $.mobile.changePage("#pageTopUp", {transition: "fade"});
+            $.mobile.changePage("#pageReward", {transition: "fade"});
          }
       },
       error: function (request, status, err) {
