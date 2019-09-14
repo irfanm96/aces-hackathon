@@ -1,0 +1,256 @@
+{
+  "version": 10,
+  "semester": 4,
+  "subjects": {
+    "CO227": "Computer Engineering Project<br><small>(CO227)</small>",
+    "EF524": "Business Law<br><small>(EF524)</small>",
+    "EF509": "Engineer as an Entrepreneur<br><small>(EF509)</small>",
+    "EF501": "Engineer in Society<br><small>(EF501)</small>",
+    "EF520": "Effective Communication in English<br><small>(EF520)</small>",
+    "EF528": "Digital Art<br><small>(EF528)</small>",
+    "TeaBreak": "Tea Break",
+    "LunchBreak": "Lunch Break",
+    "Free": "",
+    "ESU": "ESU Hour"
+  },
+  "Monday": {
+    "8.00": {
+      "css": "",
+      "subj": "EF524",
+      "loc": "LR02",
+      "to": "9.50"
+    },
+    "9.50": {
+      "css": "tr-tea",
+      "subj": "TeaBreak",
+      "loc": "",
+      "to": "10.10"
+    },
+    "10.10": {
+      "css": "",
+      "subj": "EF524",
+      "loc": "LR02",
+      "to": "12.00"
+    },
+    "12.00": {
+      "css": "tr-lunch",
+      "subj": "LunchBreak",
+      "loc": "",
+      "to": "1.00"
+    },
+    "1.00": {
+      "css": "",
+      "subj": "EF524",
+      "loc": "LR02",
+      "to": "2.50"
+    },
+    "2.50": {
+      "css": "tr-tea",
+      "subj": "TeaBreak",
+      "loc": "",
+      "to": "3.10"
+    },
+    "3.10": {
+      "css": "",
+      "subj": "Free",
+      "loc": "",
+      "to": "5.00"
+    }
+  },
+  "Tuesday": {
+    "8.00": {
+      "css": "",
+      "subj": "Free",
+      "loc": "",
+      "to": "8.55"
+    },
+    "8.55": {
+      "css": "",
+      "subj": "CO227",
+      "loc": "Lab",
+      "to": "9.50"
+    },
+    "9.50": {
+      "css": "tr-tea",
+      "subj": "TeaBreak",
+      "loc": "",
+      "to": "10.10"
+    },
+    "10.10": {
+      "css": "",
+      "subj": "EF528",
+      "loc": "LR02",
+      "to": "12.00"
+    },
+    "12.00": {
+      "css": "tr-lunch",
+      "subj": "LunchBreak",
+      "loc": "",
+      "to": "1.00"
+    },
+    "1.00": {
+      "css": "",
+      "subj": "EF528",
+      "loc": "LR02",
+      "to": "2.50"
+    },
+    "2.50": {
+      "css": "tr-tea",
+      "subj": "TeaBreak",
+      "loc": "",
+      "to": "3.10"
+    },
+    "3.10": {
+      "css": "",
+      "subj": "EF528",
+      "loc": "LR02",
+      "to": "5.00"
+    }
+  },
+  "Wednesday": {
+    "8.00": {
+      "css": "",
+      "subj": "Free",
+      "loc": "",
+      "to": "8.55"
+    },
+    "8.55": {
+      "css": "",
+      "subj": "CO227",
+      "loc": "Lab",
+      "to": "9.50"
+    },
+    "9.50": {
+      "css": "tr-tea",
+      "subj": "TeaBreak",
+      "loc": "",
+      "to": "10.10"
+    },
+    "10.10": {
+      "css": "",
+      "subj": "Free",
+      "loc": "",
+      "to": "11.05"
+    },
+    "11.05": {
+      "css": "",
+      "subj": "ESU",
+      "loc": "",
+      "to": "12.00"
+    },
+    "12.00": {
+      "css": "tr-lunch",
+      "subj": "LunchBreak",
+      "loc": "",
+      "to": "1.00"
+    },
+    "1.00": {
+      "css": "",
+      "subj": "CO227",
+      "loc": "Lab",
+      "to": "2.50"
+    },
+    "2.50": {
+      "css": "tr-tea",
+      "subj": "TeaBreak",
+      "loc": "",
+      "to": "3.10"
+    },
+    "3.10": {
+      "css": "",
+      "subj": "Free",
+      "loc": "",
+      "to": "5.00"
+    }
+  },
+  "Thursday": {
+    "8.00": {
+      "css": "",
+      "subj": "Free",
+      "loc": "",
+      "to": "8.55"
+    },
+    "8.55": {
+      "css": "",
+      "subj": "CO227",
+      "loc": "Lab",
+      "to": "9.50"
+    },
+    "9.50": {
+      "css": "tr-tea",
+      "subj": "TeaBreak",
+      "loc": "",
+      "to": "10.10"
+    },
+    "10.10": {
+      "css": "",
+      "subj": "EF520",
+      "loc": "LR02",
+      "to": "12.00"
+    },
+    "12.00": {
+      "css": "tr-lunch",
+      "subj": "LunchBreak",
+      "loc": "",
+      "to": "1.00"
+    },
+    "1.00": {
+      "css": "",
+      "subj": "Free",
+      "loc": "",
+      "to": "5.00"
+    }
+  },
+  "Friday": {
+    "8.00": {
+      "css": "",
+      "subj": "EF501",
+      "loc": "LR02",
+      "to": "9.50"
+    },
+    "9.50": {
+      "css": "tr-tea",
+      "subj": "TeaBreak",
+      "loc": "",
+      "to": "10.10"
+    },
+    "10.10": {
+      "css": "",
+      "subj": "EF501",
+      "loc": "LR02",
+      "to": "12.00"
+    },
+    "12.00": {
+      "css": "tr-lunch",
+      "subj": "LunchBreak",
+      "loc": "",
+      "to": "1.00"
+    },
+    "1.00": {
+      "css": "",
+      "subj": "EF509",
+      "loc": "LR02",
+      "to": "2.50"
+    },
+    "2.50": {
+      "css": "tr-tea",
+      "subj": "TeaBreak",
+      "loc": "",
+      "to": "3.10"
+    },
+    "3.10": {
+      "css": "",
+      "subj": "EF509",
+      "loc": "LR02",
+      "to": "5.00"
+    }
+  },
+  "Saturday": {
+    "8.00": {
+      "css": "",
+      "subj": "EF509",
+      "loc": "LR21",
+      "to": "9.50"
+    }
+  }
+}

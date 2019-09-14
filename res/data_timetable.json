@@ -1,0 +1,291 @@
+{
+   "version": 12,
+   "semester": 5,
+   "subjects": {
+      "CO321": "Embedded Systems<br><small>(CO321)</small>",
+      "CO322": "Data Structures and Algorithms<br><small>(CO322)</small>",
+      "CO323": "Computer Communication<br>Networks II <small>(CO323)</small>",
+      "CO324": "Network and Web Application<br>Design <small>(CO324)</small>",
+      "CO325": "Computer and Network Security<br><small>(CO325)</small>",
+      "EE386": "Electronics II<br><small>(EE386)</small>",
+
+      "CO321-labs": "Lab: Embedded Systems<br><small>(CO321)</small>",
+      "CO322-labs": "Lab: Data Structures and Algorithms<br><small>(CO322)</small>",
+      "CO323-labs": "Lab: Computer Communication<br>Networks II <small>(CO323)</small>",
+      "EE386-labs": "Lab: Electronics II<br><small>(EE386)</small>",
+      "CO324-CO325":"Lab: CO324/CO325",
+      "CO321-tutorial":"CO321 Tutorial",
+      "TeaBreak": "Tea Break",
+      "LunchBreak": "Lunch Break",
+      "Free": "",
+      "ESU": "ESU Hour"
+   },
+   "Monday": {
+      "8.00": {
+         "css": "",
+         "subj": "CO321-labs",
+         "loc": "TF",
+         "to": "9.50"
+      },
+      "9.50": {
+         "css": "tr-tea",
+         "subj": "TeaBreak",
+         "loc": "",
+         "to": "10.10"
+      },
+      "10.10": {
+         "css": "",
+         "subj": "CO325",
+         "loc": "SR02",
+         "to": "12.00"
+      },
+      "12.00": {
+         "css": "tr-lunch",
+         "subj": "LunchBreak",
+         "loc": "",
+         "to": "1.00"
+      },
+      "1.00": {
+         "css": "",
+         "subj": "CO324",
+         "loc": "LR21",
+         "to": "1.55"
+      },
+      "1.55": {
+         "css": "",
+         "subj": "Free",
+         "loc": "",
+         "to": "2.50"
+      },
+      "2.50": {
+         "css": "tr-tea",
+         "subj": "TeaBreak",
+         "loc": "",
+         "to": "3.10"
+      },
+      "3.10": {
+         "css": "",
+         "subj": "Free",
+         "loc": "",
+         "to": "5.00"
+      }
+   },
+   "Tuesday": {
+      "8.00": {
+         "css": "",
+         "subj": "CO324-CO325",
+         "loc": "Lab",
+         "to": "9.50"
+      },
+      "9.50": {
+         "css": "tr-tea",
+         "subj": "TeaBreak",
+         "loc": "",
+         "to": "10.10"
+      },
+      "10.10": {
+         "css": "",
+         "subj": "EE386",
+         "loc": "LR07",
+         "to": "12.00"
+      },
+      "12.00": {
+         "css": "tr-lunch",
+         "subj": "LunchBreak",
+         "loc": "",
+         "to": "1.00"
+      },
+      "1.00": {
+         "css": "",
+         "subj": "CO324",
+         "loc": "LR12",
+         "to": "1.55"
+      },
+      "1.55": {
+         "css": "",
+         "subj": "EE386-labs",
+         "loc": "Lab",
+         "to": "2.50"
+      },
+      "2.50": {
+         "css": "tr-tea",
+         "subj": "TeaBreak",
+         "loc": "",
+         "to": "3.10"
+      },
+      "3.10": {
+         "css": "",
+         "subj": "EE386-labs",
+         "loc": "Lab",
+         "to": "4.05"
+      },
+      "4.05": {
+         "css": "",
+         "subj": "Free",
+         "loc": "",
+         "to": "5.00"
+      }
+   },
+   "Wednesday": {
+      "8.00": {
+         "css": "",
+         "subj": "CO321-tutorial",
+         "loc": "LR21",
+         "to": "8.55"
+      },
+      "8.55": {
+         "css": "",
+         "subj": "CO323",
+         "loc": "SR02",
+         "to": "9.50"
+      },
+      "9.50": {
+         "css": "tr-tea",
+         "subj": "TeaBreak",
+         "loc": "",
+         "to": "10.10"
+      },
+      "10.10": {
+         "css": "",
+         "subj": "CO322",
+         "loc": "LR18",
+         "to": "11.05"
+      },
+      "11.05": {
+         "css": "",
+         "subj": "ESU",
+         "loc": "",
+         "to": "12.00"
+      },
+      "12.00": {
+         "css": "tr-lunch",
+         "subj": "LunchBreak",
+         "loc": "",
+         "to": "1.00"
+      },
+      "1.00": {
+         "css": "",
+         "subj": "CO321",
+         "loc": "TF",
+         "to": "2.50"
+      },
+      "2.50": {
+         "css": "tr-tea",
+         "subj": "TeaBreak",
+         "loc": "",
+         "to": "3.10"
+      },
+      "3.10": {
+         "css": "",
+         "subj": "Free",
+         "loc": "",
+         "to": "5.00"
+      }
+   },
+   "Thursday": {
+      "8.00": {
+         "css": "",
+         "subj": "CO325",
+         "loc": "LR19",
+         "to": "8.55"
+      },
+      "8.55": {
+         "css": "",
+         "subj": "CO322-labs",
+         "loc": "Lab",
+         "to": "9.50"
+      },
+      "9.50": {
+         "css": "tr-tea",
+         "subj": "TeaBreak",
+         "loc": "",
+         "to": "10.10"
+      },
+      "10.10": {
+         "css": "",
+         "subj": "CO322-labs",
+         "loc": "Lab",
+         "to": "11.05"
+      },
+      "11.05": {
+         "css": "",
+         "subj": "EE386",
+         "loc": "LR21",
+         "to": "12.00"
+      },
+      "12.00": {
+         "css": "tr-lunch",
+         "subj": "LunchBreak",
+         "loc": "",
+         "to": "1.00"
+      },
+      "1.00": {
+         "css": "",
+         "subj": "CO323",
+         "loc": "SR02",
+         "to": "2.50"
+      },
+      "2.50": {
+         "css": "tr-tea",
+         "subj": "TeaBreak",
+         "loc": "",
+         "to": "3.10"
+      },
+      "3.10": {
+         "css": "",
+         "subj": "CO323-labs",
+         "loc": "Lab",
+         "to": "5.00"
+      }
+   },
+   "Friday": {
+      "8.00": {
+         "css": "",
+         "subj": "Free",
+         "loc": "",
+         "to": "8.55"
+      },
+      "8.55": {
+         "css": "",
+         "subj": "CO324",
+         "loc": "LR21",
+         "to": "9.50"
+      },
+      "9.50": {
+         "css": "tr-tea",
+         "subj": "TeaBreak",
+         "loc": "",
+         "to": "10.10"
+      },
+      "10.10": {
+         "css": "",
+         "subj": "CO322",
+         "loc": "LR21",
+         "to": "12.00"
+      },
+      "12.00": {
+         "css": "tr-lunch",
+         "subj": "LunchBreak",
+         "loc": "",
+         "to": "1.00"
+      },
+      "1.00": {
+         "css": "",
+         "subj": "Free",
+         "loc": "",
+         "to": "2.50"
+      },
+      "2.50": {
+         "css": "tr-tea",
+         "subj": "TeaBreak",
+         "loc": "",
+         "to": "3.10"
+      },
+      "3.10": {
+         "css": "",
+         "subj": "Free",
+         "loc": "",
+         "to": "5.00"
+      }
+   }
+}

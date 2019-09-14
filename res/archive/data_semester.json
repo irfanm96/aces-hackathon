@@ -1,0 +1,26 @@
+{
+  "3": {
+    "CO221": "Digital Design (CO221)",
+    "CO222": "Programming Methodology (CO222)",
+    "CO223": "Computer Communication Networks I (CO223)",
+    "EE282": "Network Analysis (EM282)",
+    "EM201": "Mathematics III (EE201)",
+    "EM313": "Discreet Mathematics (EE313)"
+  },
+  "4":{
+    "CO224": "Computer Architecture",
+    "CO225": "Software Construction",
+    "CO226": "Database Systems",
+    "EE285": "Electronics I",
+    "EM202": "Mathematics IV",
+    "EM314": "Numerical Methods",
+  },
+  "41":{
+    "CO227": "Computer Engineering Project",
+    "EF524": "Business Law",
+    "EF509": "Engineer as an Entrepreneur",
+    "EF501": "Engineer in Society",
+    "EF520": "Effective Communication in English",
+    "EF528": "Digital Art",
+  }
+}

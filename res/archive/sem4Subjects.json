@@ -1,0 +1,151 @@
+{
+  "version": 5,
+  "semester": 4,
+  "subjects": {
+    "CO224": {
+      "name": "Computer Architecture",
+      "content": "To teach the elements of a computer and how they are organized and explain how instructions of a program will be executed by the microprocessor and how performance can be evaluated and enhanced so as to widen the vision of students in understanding programs behaviour on a computer system.",
+      "allocation": "Lectures - 29h , Tutorial - 4h, Practical Classes - 14, Assignments - 10",
+      "img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+      "bg": "clr-bg-orange",
+      "marks": {
+        "Practical": 20,
+        "Assignments": 20,
+        "Mid Exam": 20,
+        "End Exam": 40
+      },
+      "modules": {
+        "Fundamentals of Computer Architecture:": "",
+        "CPU organization": "",
+        "Pipelining:": "",
+        "Memory hierarchies:": "",
+        "Interfacing and Communication:": "",
+        "Performance issues:": "",
+        "Multiprocessors": ""
+      },
+      "lecturers": {
+        "0": {
+          "name": "",
+          "title": "",
+          "email": "",
+          "teleOffice": "",
+          "teleMobile": ""
+        }
+      }
+    },
+    "CO225": {
+      "name": "Software Construction",
+      "content": "Use a problem-based approach to introduce the tools and techniques afforded by high-level languages, standard libraries and operating systems so that students will be able to use these primitives while constructing relatively large software.",
+      "allocation": "Lectures - 25h , Tutorial classes - 6, Practical classes - 20, Assignments - 8",
+      "img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+      "bg": "clr-bg-blue",
+      "marks": {
+        "Practical": 30,
+        "Group Project": 30,
+        "End Exam": 40
+      },
+      "modules": {
+        "Introduction": "",
+        "Data Collections": "",
+        "I/O Handling": "",
+        "Declarative Programming": "",
+        "Classes and Objects:": "",
+        "Event-driven Programming": "",
+        "Concurrency and Network Clients": "",
+        "Code quality:": ""
+      },
+      "lecturers": {
+        "0": {
+          "name": "",
+          "title": "",
+          "email": "",
+          "teleOffice": "",
+          "teleMobile": ""
+        }
+      }
+    },
+    "CO226": {
+      "name": "Database Systems",
+      "content": "The aim of this course is to provide basic theoretical and practical concepts of database management systems so that students will be able to use that knowledge to design, develop and maintain database systems effectively.",
+      "allocation": "Lectures - 31h, Tutorial classes - 4, Practical classes - 12, Assignments - 8",
+      "img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+      "bg": "clr-bg-blue-grey",
+      "marks": {
+        "Practical/Tutorial": 20,
+        "Project": 20,
+        "Mid Exam": 20,
+        "End Exam": 40
+      },
+      "modules": {
+        "Introduction to Database Systems": "",
+        "Data Modelling": "",
+        "RDBMS Concepts": "",
+        "Database Query Languages": "",
+        "Database Programming Techniques": "",
+        "Introduction to indexes and Query Optimization": "",
+        "Introduction to Transaction Processing": "",
+        "Database Project": ""
+      },
+      "lecturers": {
+        "0": {
+          "name": "",
+          "title": "",
+          "email": "",
+          "teleOffice": "",
+          "teleMobile": ""
+        }
+      }
+    },
+    "EE285": {
+      "name": "Electronics I",
+      "content": "",
+      "allocation": "Lectures - h",
+      "img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+      "bg": "clr-bg-green",
+      "modules": {
+        "0": "NULL"
+      },
+      "lecturers": {
+        "0": "NULL"
+      }
+    },
+    "EM202": {
+      "name": "Mathematics IV",
+      "content": "",
+      "allocation": "Lectures - h , Tutorial classes - h",
+      "img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+      "bg": "clr-bg-red",
+      "modules": {
+        "0": "NULL"
+      },
+      "lecturers": {
+        "0": {
+          "name": "",
+          "title": "",
+          "email": "",
+          "teleOffice": "",
+          "teleMobile": ""
+        }
+      }
+    },
+    "EM314": {
+      "name": "Numerical Analysis",
+      "content": "",
+      "allocation": "Lectures - h , Tutorial Classes - h",
+      "img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+      "bg": "clr-bg-deep-orange",
+      "modules": {
+        "0": "NULL"
+      },
+      "lecturers": {
+        "0": {
+          "name": "",
+          "title": "",
+          "email": "",
+          "teleOffice": "",
+          "teleMobile": ""
+        }
+      }
+    }
+  }
+}

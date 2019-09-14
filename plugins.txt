@@ -1,0 +1,13 @@
+cordova-plugin-whitelist
+
+cordova-plugin-inappbrowser
+cordova-plugin-dialogs
+cordova-plugin-device
+cordova-plugin-firebase
+cordova-plugin-network-information
+
+
+
+
+cordova-android-play-services-gradle-release
+   PLAY_SERVICES_VERSION": "15.0.2"

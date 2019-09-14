@@ -1,0 +1,252 @@
+{
+  "version": 1,
+  "semester":3,
+  "subjects": {
+    "CO221": "Digital Design (CO221)",
+    "CO222": "Programming Methodology (CO222)",
+    "CO223": "Computer Communication Networks I (CO223)",
+    "EE282": "Network Analysis (EM282)",
+    "EM201": "Mathematics III (EE201)",
+    "EM313": "Discreet Mathematics (EE313)",
+    "TeaBreak": "Tea Break",
+    "LunchBreak": "Lunch Break",
+    "Free": "--",
+    "CO221-Labs": "Lab: Digital Design",
+    "CO222-Labs": "Lab: Programming",
+    "CO223-Labs": "Lab: Network",
+    "EM201-Tutorial": "EM201: Tutorial"
+  },
+  "Monday": {
+    "8.00": {
+      "css": "",
+      "subj": "CO222",
+      "loc": "SR2",
+      "to": "9.50"
+    },
+    "9.50": {
+      "css": "tr-tea",
+      "subj": "TeaBreak",
+      "loc": "",
+      "to": "10.10"
+    },
+    "10.10": {
+      "css": "",
+      "subj": "CO221",
+      "loc": "SR2",
+      "to": "11.05"
+    },
+    "11.05": {
+      "css": "",
+      "subj": "Free",
+      "loc": "",
+      "to": "12.00"
+    },
+    "12.00": {
+      "css": "tr-lunch",
+      "subj": "LunchBreak",
+      "loc": "",
+      "to": "1.00"
+    },
+    "1.00": {
+      "css": "",
+      "subj": "EM201",
+      "loc": "Lec10",
+      "to": "1.55"
+    },
+    "1.55": {
+      "css": "",
+      "subj": "Free",
+      "loc": "",
+      "to": "3.10"
+    },
+    "3.10": {
+      "css": "",
+      "subj": "CO223-Labs",
+      "loc": "TF",
+      "to": "5.00"
+    }
+  },
+  "Tuesday": {
+    "8.00": {
+      "css": "",
+      "subj": "EE282",
+      "loc": "LR10",
+      "to": "9.20"
+    },
+    "9.20": {
+      "css": "tr-tea",
+      "subj": "TeaBreak",
+      "loc": "",
+      "to": "9.40"
+    },
+    "9.40": {
+      "css": "",
+      "subj": "EM313",
+      "loc": "LR2",
+      "to": "11.00"
+    },
+    "11.05": {
+      "css": "",
+      "subj": "Free",
+      "loc": "",
+      "to": "12.00"
+    },
+    "12.00": {
+      "css": "tr-lunch",
+      "subj": "LunchBreak",
+      "loc": "",
+      "to": "1.00"
+    },
+    "1.00": {
+      "css": "",
+      "subj": "CO221-Labs",
+      "loc": "TF",
+      "to": "4.10"
+    }
+  },
+  "Wednesday": {
+    "8.00": {
+      "css": "",
+      "subj": "CO223",
+      "loc": "SR2",
+      "to": "8.55"
+    },
+    "8.55": {
+      "css": "",
+      "subj": "CO222",
+      "loc": "SR2",
+      "to": "9.50"
+    },
+    "9.50": {
+      "css": "tr-tea",
+      "subj": "TeaBreak",
+      "loc": "",
+      "to": "10.10"
+    },
+    "10.10": {
+      "css": "",
+      "subj": "CO221",
+      "loc": "SR2",
+      "to": "11.05"
+    },
+    "11.05": {
+      "css": "",
+      "subj": "Free",
+      "loc": "",
+      "to": "12.00"
+    },
+    "12.00": {
+      "css": "tr-lunch",
+      "subj": "LunchBreak",
+      "loc": "",
+      "to": "1.00"
+    },
+    "1.00": {
+      "css": "",
+      "subj": "EM201",
+      "loc": "Lec10",
+      "to": "1.55"
+    },
+    "1.55": {
+      "css": "",
+      "subj": "Free",
+      "loc": "",
+      "to": "2.50"
+    },
+    "3.10": {
+      "css": "",
+      "subj": "CO222-Labs",
+      "loc": "TF",
+      "to": "5.00"
+    }
+  },
+  "Thursday": {
+    "8.00": {
+      "css": "",
+      "subj": "EE282",
+      "loc": "LR10",
+      "to": "8.55"
+    },
+    "9.20": {
+      "css": "tr-tea",
+      "subj": "TeaBreak",
+      "loc": "",
+      "to": "9.40"
+    },
+    "9.40": {
+      "css": "",
+      "subj": "EM313",
+      "loc": "LR3",
+      "to": "11.00"
+    },
+    "11.05": {
+      "css": "",
+      "subj": "Free",
+      "loc": "",
+      "to": "12.00"
+    },
+    "12.00": {
+      "css": "tr-lunch",
+      "subj": "LunchBreak",
+      "loc": "",
+      "to": "1.00"
+    },
+    "1.00": {
+      "css": "",
+      "subj": "CO221-Labs",
+      "loc": "TF",
+      "to": "4.10"
+    }
+  },
+  "Friday": {
+    "8.00": {
+      "css": "",
+      "subj": "CO223",
+      "loc": "SR2",
+      "to": "9.50"
+    },
+    "9.50": {
+      "css": "tr-tea",
+      "subj": "TeaBreak",
+      "loc": "",
+      "to": "10.10"
+    },
+    "10.10": {
+      "css": "",
+      "subj": "CO221",
+      "loc": "SR2",
+      "to": "11.05"
+    },
+    "11.05": {
+      "css": "",
+      "subj": "Free",
+      "loc": "",
+      "to": "12.00"
+    },
+    "12.00": {
+      "css": "tr-lunch",
+      "subj": "LunchBreak",
+      "loc": "",
+      "to": "1.00"
+    },
+    "1.00": {
+      "css": "",
+      "subj": "EM201-Tutorial",
+      "loc": "",
+      "to": "1.55"
+    },
+    "1.55": {
+      "css": "",
+      "subj": "Free",
+      "loc": "",
+      "to": "3.10"
+    },
+    "3.10": {
+      "css": "",
+      "subj": "CO223-Labs",
+      "loc": "TF",
+      "to": "5.00"
+    }
+  }
+}
+

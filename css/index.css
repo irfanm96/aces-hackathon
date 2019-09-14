@@ -1,0 +1,245 @@
+/* --- Splash Screen ---------------------------------------------------------------------------------*/
+
+.event {
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  color: #FFFFFF;
+  margin: 0px 30px;
+  padding: 2px 0px;
+}
+
+.event.listening {
+  /*background-color:#333333;*/
+  display: block;
+}
+
+.event.received {
+  /*background-color:#4B946A;*/
+  display: none;
+}
+
+@keyframes fade {
+  from {
+    opacity: 1.0;
+  }
+  50% {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1.0;
+  }
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: 1.0;
+  }
+  50% {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1.0;
+  }
+}
+
+.blink {
+  animation: fade 3000ms infinite;
+  -webkit-animation: fade 3000ms infinite;
+}
+
+/* --- Loader ---------------------------------------------------------------------------------------*/
+
+#loader {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  z-index: 1;
+  width: 100px;
+  height: 100px;
+  margin: -50px 0 0 -50px;
+  border: 16px solid #cccccc;
+  border-radius: 50%;
+  border-top: 16px solid #3498db;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+#overlay {
+  position: fixed; /* Sit on top of the page content */
+  display: block; /* Hidden by default */
+  width: 100%; /* Full width (cover the whole page) */
+  height: 100%; /* Full height (cover the whole page) */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(175, 175, 175, 0.5); /* Black background with opacity */
+  z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+  cursor: pointer; /* Add a pointer on hover */
+}
+
+.app-panel-divider {
+  height: 3px !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+td {
+  vertical-align: middle !important;
+}
+
+.nd2Tabs-nav-item {
+    padding: 0 10px !important;
+}
+
+/*-- about ------------------------------------------------------------*/
+
+.contact-ico-a {
+    text-decoration: none!important;
+}
+.contact-ico {
+    width: 32px;
+    margin: 7px;
+
+    -webkit-transition: all 0.1s ease-out;
+    -moz-transition: all 0.1s ease-out;
+    -o-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-out;
+}
+
+.contact-ico:hover {
+    width: 36px;
+    margin: 5px;
+}
+
+
+
+/*-- Reminder ------------------------------------------------------------*/
+
+.rem-td{
+  align: left !important;
+}
+.rem-highlight{
+  color: #000000;
+  background-color: rgba(42, 42, 42, 0.15);
+}
+.rem-completed{
+  /*color: #000000;
+  background-color: #61ccfd;*/
+}
+
+/*-- Calender --------------------------------------------------------------*/
+
+.my-date {
+  font-size: small !important;
+  text-align: center !important;
+}
+
+.frontTable tr {
+  border-top: 1px solid #2babe2;
+}
+
+.timeTable td{
+  padding: 2px 10px 2px 4px !important;
+}
+
+.timeTable tr {
+  /*border-bottom: 1px solid #2babe2;*/
+  border-top: 1px solid #2babe2;
+}
+
+.my-table tr {
+  border-bottom: 1px solid #2babe2;
+  border-top: 1px solid #2babe2;
+}
+
+.tr-lunch {
+  color: #000000;
+  background-color: rgba(42, 170, 224, 0.15);
+}
+
+.tr-tea {
+  color: #000000;
+  background-color: rgba(42, 170, 224, 0.15);
+}
+
+
+/*-- Subject Colors --------------------------------------------------*/
+
+.co221, .co224, .co321 {
+  color: #ff6e11 !important;
+
+  /*color: white;
+  background-color: #ff6e11 !important;*/
+}
+
+.co222, .co225, .co322 {
+  color: rgb(39, 174, 232) !important;
+
+  /*color: white;
+  background-color: rgba(39, 174, 232, 0.3) !important;*/
+}
+
+.co223, .co226, .co323 {
+  color: rgb(94, 102, 115) !important;
+
+  /*color: white;
+  background-color: rgba(94, 102, 115, 0.3) !important;*/
+}
+
+.em201, .em202, .co324 {
+  color: red !important;
+
+  /*color: white;
+  background-color: rgb(255, 0, 0) !important;*/
+}
+
+.em313, .em314, .co325 {
+  color: rgb(236, 60, 13) !important;
+
+  /*color: white;
+  background-color: #ff4b8c !important;*/
+}
+
+.ee282, .ee285, .ee386 {
+  color: green !important;
+
+  /*color: white;
+  background-color: green !important;*/
+}
+
+/*-- Academic Calender Colors --------------------------------------------------*/
+
+.ac-topic {
+  background-color: #2dbbfd;
+}
+
+.ac-strike {
+  background-color: #838383;
+}
+
+.ac-highlight {
+  background-color: #bababa;
+}
+
+.ac-exam {
+  background-color: #ff6b5b;
+}

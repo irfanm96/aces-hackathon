@@ -1,0 +1,46 @@
+{
+  "version": 5,
+  "data": {
+    "Academic Calender": {
+      "link": "#pageAcademicCalender",
+      "ico": "file",
+      "role": "",
+      "target": "_self"
+    },
+    "Useful Links": {
+      "link": "",
+      "ico": "",
+      "role": "list-divider"
+    },
+    "CO224: Quizlet Class": {
+      "link": "https://quizlet.com/class/8460238/",
+      "ico": "resource",
+      "role": "",
+      "target": "_blank"
+    },
+    "CO226 Reference: W3Schools": {
+      "link": "https://w3schools.com/",
+      "ico": "resource",
+      "role": "",
+      "target": "_blank"
+    },
+    "Course Registration": {
+      "link": "https://eng.pdn.ac.lk/coursereg/",
+      "ico": "marks",
+      "role": "",
+      "target": "_blank"
+    },
+    "CE Website": {
+      "link": "http://www.ce.pdn.ac.lk/",
+      "ico": "web",
+      "role": "",
+      "target": "_blank"
+    },
+    "CE Mail": {
+      "link": "https://web.ce.pdn.ac.lk/mail/",
+      "ico": "web",
+      "role": "",
+      "target": "_blank"
+    }
+  }
+}

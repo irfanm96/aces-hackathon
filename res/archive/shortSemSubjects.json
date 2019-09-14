@@ -1,0 +1,514 @@
+{
+  "version": 6,
+  "semester": 4,
+  "subjects": {
+    "CO221": {
+      "name": "Digital Design",
+      "content": "Introduction to digital logic, Number systems and digital logic, Combination logic circuits, Modular design of combinational circuits, Sequential logic circuits and memory elements, Design of synchronous sequential circuits, Analysis and design of asynchronous sequential circuits, Digital circuit design and implementation",
+      "allocation": "Lectures - 30h , Practical classes - 16h, Assignments - 14h",
+      "img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+      "bg": "clr-bg-orange",
+      "modules": {
+        "Combinational Logic": "",
+        "Synchronous Sequential Circuits": "",
+        "Asynchronous Sequential Circuits": ""
+      },
+      "lecturers": {
+        "0": {
+          "name": "Dr. Kamalanath Samarakoon",
+          "title": "B.Sc. Eng. (Peradeniya), M.Eng. (AIT), Ph.D. (Cardiff), C.Eng. (SL), C.Eng. (UK), MIET (UK) , MIE (SL), MIEEE (USA)",
+          "email": "kamalanath@ce.pdn.ac.lk",
+          "teleOffice": "0812393918",
+          "teleMobile": "0712277994"
+        },
+        "1": {
+          "name": "Shirley Devapriya Dewasurendra",
+          "title": "B.Sc.Eng.(Peradeniya), M.Eng.(AIT), D.E.A., PhD (INP,Grenoble), C.Eng. (SL), M.I.Mech.E.(UK), C.Eng. (UK) MIEEE, MIE(SL)",
+          "email": "devapriyad@pdn.ac.lk",
+          "teleOffice": "0812393478",
+          "teleMobile": ""
+        }
+      }
+    },
+    "CO222": {
+      "name": "Programming Methodology",
+      "content": "Problem solving, Storing and naming data and operators, Control flow, Using standard library functions, Structured programming, Static allocation, References (pointers), Linked structures, Memory layout, Language tool-chains, Support tools.",
+      "allocation": "Lectures - 24h , Tutorial classes - 8h, Practical classes - 14h, Assignments - 12h",
+      "img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+      "bg": "clr-bg-blue",
+      "modules": {
+        "0": "NULL"
+      },
+      "lecturers": {
+        "0": {
+          "name": "Dr. Roshan G. Ragel",
+          "title": "BSc Eng (Peradeniya), PhD (UNSW), SMIEEE (USA), MIEEE-CS (USA)",
+          "email": "roshanr@ce.pdn.ac.lk",
+          "teleOffice": "0812393913",
+          "teleMobile": ""
+        }
+      }
+    },
+    "CO223": {
+      "name": "Computer Communication<br>Networks I",
+      "content": "Communication networks, Terminology, classification, and performance metrics, Network Design: Layered network architectures, Network applications and transport services, Packet-switching networks, Transmission over links and local area networks, Physical transmission fundamentals, Circuit-switching networks.",
+      "allocation": "Lectures - 30h, Tutorial classes - 2h, Practical classes - 22h, Assignments - 4h",
+      "img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+      "bg": "clr-bg-blue-grey",
+      "modules": {
+        "0": "NULL"
+      },
+      "lecturers": {
+        "0": {
+          "name": "Dr. Asitha Bandaranayake",
+          "title": "BSc Eng (Peradeniya), PhD (Cincinnati)",
+          "email": "asithab@pdn.ac.lk",
+          "teleOffice": "",
+          "teleMobile": "0715117771"
+        }
+      }
+    },
+    "EE282": {
+      "name": "Network Analysis",
+      "content": "Review of DC circuits, First-order circuits, Second-order circuits, Sinusoidal steady state analysis, Laplace transform and network analysis, Two-port networks",
+      "allocation": "Lectures - 45h",
+      "img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+      "bg": "clr-bg-green",
+      "modules": {
+        "0": "NULL"
+      },
+      "lecturers": {
+        "0": "NULL"
+      }
+    },
+    "EM201": {
+      "name": "Mathematics III",
+      "content": "Introduction, Different types of differential equations and solutions, Modelling with differential equations, First order differential Equations, Differential equations with constant coefficients, Linear differential equations, Solutions in series, Laplace transformations, System of ordinary differential equations, Numerical solutions to ODEs, Concept of probability, Discrete probability distributions.",
+      "allocation": "Lectures - 36h , Tutorial classes - 9h",
+      "img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+      "bg": "clr-bg-red",
+      "modules": {
+        "0": "NULL"
+      },
+      "lecturers": {
+        "0": {
+          "name": "Dr. S. P. C. Perera",
+          "title": "",
+          "email": "pperera@pdn.ac.lk",
+          "teleOffice": "",
+          "teleMobile": ""
+        },
+        "1": {
+          "name": "Dr. D.S.K. Karunasinghe",
+          "title": "",
+          "email": "",
+          "teleOffice": "",
+          "teleMobile": ""
+        }
+      }
+    },
+    "EM313": {
+      "name": "Discreet Mathematics",
+      "content": "Fundamentals, Combinatories, Graph theory, Algorithms, Prepositional calculus, Mathematical models for computing machines.",
+      "allocation": "Lectures - 36h , Tutorial Classes - 9h",
+      "img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+      "bg": "clr-bg-deep-orange",
+      "modules": {
+        "Logic and Proof": "",
+        "Number Theory": "",
+        "Group Theory": "",
+        "Growth of Functions": "",
+        "Graph Theory": "",
+        "Algorithms": "",
+        "Computing Machines": ""
+      },
+      "lecturers": {
+        "0": {
+          "name": "Dr. G. W. R. M. R. Palamakumbura",
+          "title": "",
+          "email": "rpalam@pdn.ac.lk",
+          "teleOffice": "0812393349",
+          "teleMobile": ""
+        },
+        "1": {
+          "name": "Dr. R. Meegaskumbura",
+          "title": "",
+          "email": "rochanam@pdn.ac.lk",
+          "teleOffice": "0812393354",
+          "teleMobile": ""
+        }
+      }
+    },
+    "CO224": {
+      "name": "Computer Architecture",
+      "content": "To teach the elements of a computer and how they are organized and explain how instructions of a program will be executed by the microprocessor and how performance can be evaluated and enhanced so as to widen the vision of students in understanding programs behaviour on a computer system.",
+      "allocation": "Lectures - 29h , Tutorial - 4h, Practical Classes - 14, Assignments - 10",
+      "img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+      "bg": "clr-bg-orange",
+      "marks": {
+        "Assignments": 20,
+        "Quiz/Labs": 20,
+        "Mid Exam": 20,
+        "End Exam": 40
+      },
+      "modules": {
+        "Computer Abstractions and Technology": "",
+        "Instructions: Language of the Computer": "",
+        "Arithmetic for Computers": "",
+        "The Processor": "",
+        "Large and Fast: Exploiting Memory Hierarchy": "",
+        "Storage and Other I/O Topics": "",
+        "Multicores, Multiprocessors, and Clusters": ""
+      },
+      "references": {
+        "CO224 Syllabus": "https://drive.google.com/open?id=1BlOleNTyjaH-wOvPLYXESEGVvTEPg4vG",
+        "Computer Organization and Design": "https://drive.google.com/open?id=1R9oiVTVqGJKacpBr7Fw7p6ipuoJCV2e8"
+      },
+      "lecturers": {
+        "0": {
+          "name": "Dr. Roshan G. Ragel",
+          "title": "BSc Eng (Peradeniya), PhD (UNSW), SMIEEE (USA), MIEEE-CS (USA)",
+          "email": "roshanr@ce.pdn.ac.lk",
+          "teleOffice": "0812393913",
+          "teleMobile": ""
+        },
+        "1": {
+          "name": "Dr. Isuru Nawinne",
+          "title": "",
+          "email": "isurunawinne@gmail.com",
+          "teleOffice": "",
+          "teleMobile": ""
+        }
+      }
+    },
+    "CO225": {
+      "name": "Software Construction",
+      "content": "Use a problem-based approach to introduce the tools and techniques afforded by high-level languages, standard libraries and operating systems so that students will be able to use these primitives while constructing relatively large software.",
+      "allocation": "Lectures - 31h , Tutorial classes - 6, Practical classes - 20, Assignments - 8",
+      "img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+      "bg": "clr-bg-blue",
+      "marks": {
+        "Practical": 30,
+        "Group Project": 30,
+        "End Exam": 40
+      },
+      "modules": {
+        "Introduction": "",
+        "Data Collections": "",
+        "I/O Handling": "",
+        "Declarative Programming": "",
+        "Classes and Objects:": "",
+        "Event-driven Programming": "",
+        "Concurrency and Network Clients": "",
+        "Code quality:": ""
+      },
+      "references": {
+        "CO225 Syllabus (old)": "https://drive.google.com/open?id=1n7I7hnamqnjl1Pc54PHp5j12ZPVsOWuR"
+      },
+      "lecturers": {
+        "0": {
+          "name": "Dr. Dhammika Elkaduwe",
+          "title": "B.Sc. Eng. (Peradeniya), PhD (UNSW)",
+          "email": "dhammika@ce.pdn.ac.lk",
+          "teleOffice": "0812393914",
+          "teleMobile": "0777655802"
+        },
+        "1": {
+          "name": "Dr. Janaka Alawatugoda",
+          "title": "BSc (Hons) in Computer Science (UoP), PhD (Queensland University of Technology)",
+          "email": "alawatugoda@eng.pdn.ac.lk",
+          "teleOffice": "",
+          "teleMobile": ""
+        }
+      }
+    },
+    "CO226": {
+      "name": "Database Systems",
+      "content": "The aim of this course is to provide basic theoretical and practical concepts of database management systems so that students will be able to use that knowledge to design, develop and maintain database systems effectively.",
+      "allocation": "Lectures - 31h, Tutorial classes - 4, Practical classes - 12, Assignments - 8",
+      "img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+      "bg": "clr-bg-blue-grey",
+      "marks": {
+        "Practical/Tutorial": 20,
+        "Project": 20,
+        "Mid Exam": 20,
+        "End Exam": 40
+      },
+      "modules": {
+        "Introduction to Database Systems": "",
+        "Data Modelling": "",
+        "RDBMS Concepts": "",
+        "Database Query Languages": "",
+        "Database Programming Techniques": "",
+        "Introduction to indexes and Query Optimization": "",
+        "Introduction to Transaction Processing": "",
+        "Database Project": ""
+      },
+      "references": {
+        "CO226 Syllabus": "https://drive.google.com/open?id=17gTTJTT2xya4DgLpxc5QgTonzstLr15C"
+      },
+      "lecturers": {
+        "0": {
+          "name": "Dr. Manjula Sandirigama",
+          "title": "B.Sc. Eng. (Peradeniya), PhD (UNSW)",
+          "email": "m_sandirigama@ce.pdn.ac.lk",
+          "teleOffice": "0812393473",
+          "teleMobile": "0718385968"
+        }
+      }
+    },
+    "EE285": {
+      "name": "Electronics I",
+      "content": "",
+      "allocation": "Lectures - h",
+      "img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+      "bg": "clr-bg-green",
+      "marks": {
+        "Labs/Assignments": 30,
+        "Mid Exam": 20,
+        "End Exam": 50
+      },
+      "modules": {
+        "Diodes": "",
+        "BJT Transistors": "",
+        "Amplifiers": "",
+        "OP-Amps": "",
+        "JFET Transistors": "",
+        "MOSFET Transistors": ""
+      },
+      "references": {
+        "0": "NULL"
+      },
+      "lecturers": {
+        "0": {
+          "name": "Dr. K.R.M. Nimal Rathnayaka",
+          "title": "",
+          "email": "nimal@ee.pdn.ac.lk",
+          "teleOffice": "",
+          "teleMobile": ""
+        }
+      }
+    },
+    "EM202": {
+      "name": "Mathematics IV",
+      "content": "",
+      "allocation": "Lectures - h , Tutorial classes - h",
+      "img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+      "bg": "clr-bg-red",
+      "marks": {
+        "0": "NULL"
+      },
+      "modules": {
+        "Statistics": "",
+        "Functions of Several Variables": "",
+        "Curves and Surfaces": "",
+        "Multiple Integral": "",
+        "Vector Fields": "",
+        "Optimization": ""
+      },
+      "references": {
+        "0": "NULL"
+      },
+      "lecturers": {
+        "0": {
+          "name": "Dr. D.S.K. Karunasinghe",
+          "title": "",
+          "email": "",
+          "teleOffice": "",
+          "teleMobile": ""
+        },
+        "1": {
+          "name": "Dr. M.I.M. Ishak",
+          "title": "",
+          "email": "mimishak@pdn.ac.lk",
+          "teleOffice": "0812393340",
+          "teleMobile": ""
+        }
+      }
+    },
+    "EM314": {
+      "name": "Numerical Methods",
+      "content": "",
+      "allocation": "Lectures - h , Tutorial Classes - h",
+      "img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+      "bg": "clr-bg-deep-orange",
+      "marks": {
+        "Assignments/Tutorials": 30,
+        "Mid Exam": 20,
+        "End Exam": 50
+      },
+      "modules": {
+        "0": "NULL"
+      },
+      "references": {
+        "0": "NULL"
+      },
+      "lecturers": {
+        "0": {
+          "name": "Dr. Janitha Gunatilake",
+          "title": "MSc/PhD: Texas Tech University",
+          "email": "janithag@pdn.ac.lk",
+          "teleOffice": "0812393348",
+          "teleMobile": ""
+        },
+        "1": {
+          "name": "N. L. Jayatilake",
+          "title": "BSc. Eng(1995)",
+          "email": "namalj@pdn.ac.lk",
+          "teleOffice": "0812393348",
+          "teleMobile": ""
+        }
+      }
+    },
+    "CO227": {
+      "name": "Computer Engineering Project",
+      "content": "",
+      "allocation": "",
+      "img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+      "bg": "clr-bg-deep-orange",
+      "marks": {
+        "0": "NULL"
+      },
+      "modules": {
+        "0": "NULL"
+      },
+      "references": {
+        "0": "NULL"
+      },
+      "lecturers": {
+        "0": {
+          "name": "",
+          "title": "",
+          "email": "",
+          "teleOffice": "",
+          "teleMobile": ""
+        }
+      }
+    },
+    "EF509": {
+      "name": "Engineer as an Entrepreneur",
+      "content": "",
+      "allocation": "",
+      "img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+      "bg": "clr-bg-deep-orange",
+      "marks": {
+        "0": "NULL"
+      },
+      "modules": {
+        "0": "NULL"
+      },
+      "references": {
+        "0": "NULL"
+      },
+      "lecturers": {
+        "0": {
+          "name": "",
+          "title": "",
+          "email": "",
+          "teleOffice": "",
+          "teleMobile": ""
+        }
+      }
+    },
+    "EF524": {
+      "name": "Business Law",
+      "content": "",
+      "allocation": "",
+      "img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+      "bg": "clr-bg-deep-orange",
+      "marks": {
+        "0": "NULL"
+      },
+      "modules": {
+        "0": "NULL"
+      },
+      "references": {
+        "0": "NULL"
+      },
+      "lecturers": {
+        "0": {
+          "name": "",
+          "title": "",
+          "email": "",
+          "teleOffice": "",
+          "teleMobile": ""
+        }
+      }
+    },
+    "EF501": {
+      "name": "Engineer in Society",
+      "content": "",
+      "allocation": "",
+      "img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+      "bg": "clr-bg-deep-orange",
+      "marks": {
+        "0": "NULL"
+      },
+      "modules": {
+        "0": "NULL"
+      },
+      "references": {
+        "0": "NULL"
+      },
+      "lecturers": {
+        "0": {
+          "name": "",
+          "title": "",
+          "email": "",
+          "teleOffice": "",
+          "teleMobile": ""
+        }
+      }
+    },
+    "EF528": {
+      "name": "Digital Art",
+      "content": "",
+      "allocation": "",
+      "img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+      "bg": "clr-bg-deep-orange",
+      "marks": {
+        "0": "NULL"
+      },
+      "modules": {
+        "0": "NULL"
+      },
+      "references": {
+        "0": "NULL"
+      },
+      "lecturers": {
+        "0": {
+          "name": "",
+          "title": "",
+          "email": "",
+          "teleOffice": "",
+          "teleMobile": ""
+        }
+      }
+    },
+    "EF520": {
+      "name": "Effective Communication in English",
+      "content": "",
+      "allocation": "",
+      "img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+      "bg": "clr-bg-deep-orange",
+      "marks": {
+        "0": "NULL"
+      },
+      "modules": {
+        "0": "NULL"
+      },
+      "references": {
+        "0": "NULL"
+      },
+      "lecturers": {
+        "0": {
+          "name": "",
+          "title": "",
+          "email": "",
+          "teleOffice": "",
+          "teleMobile": ""
+        }
+      }
+    }
+  }
+}

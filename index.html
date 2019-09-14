@@ -1,0 +1,592 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>EcoCredit</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+
+    <!-- Theme Stylesheets -->
+    <link rel="stylesheet" href="css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css"/>
+    <link rel="stylesheet" href="vendor/waves/waves.min.css"/>
+    <link rel="stylesheet" href="vendor/wow/animate.css"/>
+    <link rel="stylesheet" href="css/nativedroid2.css"/>
+
+    <link rel="stylesheet" href="css/sidebar.css"/>
+
+    <!-- My Stylesheets -->
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="css/w3.css">
+    <link rel="stylesheet" type="text/css" href="css/w3-theme.css">
+
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="viewport"
+          content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <!-- jQuery Framewors JS Scripts -->
+    <script src="vendor/js/jquery.min.js"></script>
+    <script src="vendor/js/jquery-ui.min.js"></script>
+    <script src="vendor/js/jquery.mobile.min.js"></script>
+
+
+<!--    <style>-->
+<!--        @import url(http://fonts.googleapis.com/css?family=Lato:300);-->
+<!--        @import url(http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css);-->
+<!--        body-->
+<!--        {-->
+<!--            margin: 0;-->
+<!--            padding: 0;-->
+<!--            font-family: 'Lato' , sans-serif;-->
+<!--            color: #333;-->
+<!--            background-size: 100%;-->
+<!--            -webkit-font-smoothing: antialiased;-->
+<!--            -webkit-text-size-adjust: none;-->
+<!--            background-color: #475264;-->
+<!--        }-->
+<!--        p-->
+<!--        {-->
+<!--            margin: 0;-->
+<!--            padding: 0 0 10px 0;-->
+<!--            line-height: 20px;-->
+<!--        }-->
+<!--        .span4-->
+<!--        {-->
+<!--            width: 80px;-->
+<!--            float: left;-->
+<!--            margin: 0 8px 10px 8px;-->
+<!--        }-->
+
+<!--        .phone-->
+<!--        {-->
+<!--            margin-top: 15px;-->
+<!--            background: #fff;-->
+<!--        }-->
+<!--        .tel-->
+<!--        {-->
+<!--            margin-bottom: 10px;-->
+<!--            margin-top: 10px;-->
+<!--            border: 1px solid #9e9e9e;-->
+<!--            border-radius: 0px;-->
+<!--        }-->
+<!--        .num-pad-->
+<!--        {-->
+<!--            padding-left: 15px;-->
+<!--        }-->
+
+
+<!--        .num-->
+<!--        {-->
+<!--            border: 1px solid #9e9e9e;-->
+<!--            -webkit-border-radius: 999px;-->
+<!--            border-radius: 999px;-->
+<!--            -moz-border-radius: 999px;-->
+<!--            height: 80px;-->
+<!--            background-color: #fff;-->
+<!--            color: #333;-->
+<!--            cursor: pointer;-->
+<!--        }-->
+<!--        .num:hover-->
+<!--        {-->
+<!--            background-color: #9e9e9e;-->
+<!--            color: #fff;-->
+<!--            transition-property: background-color .2s linear 0s;-->
+<!--            -moz-transition: background-color .2s linear 0s;-->
+<!--            -webkit-transition: background-color .2s linear 0s;-->
+<!--            -o-transition: background-color .2s linear 0s;-->
+<!--        }-->
+<!--        .txt-->
+<!--        {-->
+<!--            font-size: 30px;-->
+<!--            text-align: center;-->
+<!--            margin-top: 15px;-->
+<!--            font-family: 'Lato' , sans-serif;-->
+<!--            line-height: 30px;-->
+<!--            color: #333;-->
+<!--        }-->
+<!--        .small-->
+<!--        {-->
+<!--            font-size: 15px;-->
+<!--        }-->
+
+<!--        .btn-->
+<!--        {-->
+<!--            font-weight: bold;-->
+<!--            -webkit-transition: .1s ease-in background-color;-->
+<!--            -webkit-font-smoothing: antialiased;-->
+<!--            letter-spacing: 1px;-->
+<!--        }-->
+<!--        .btn:hover-->
+<!--        {-->
+<!--            transition-property: background-color .2s linear 0s;-->
+<!--            -moz-transition: background-color .2s linear 0s;-->
+<!--            -webkit-transition: background-color .2s linear 0s;-->
+<!--            -o-transition: background-color .2s linear 0s;-->
+<!--        }-->
+<!--        .spanicons-->
+<!--        {-->
+<!--            width: 72px;-->
+<!--            float: left;-->
+<!--            text-align: center;-->
+<!--            margin-top: 40px;-->
+<!--            color: #9e9e9e;-->
+<!--            font-size: 30px;-->
+<!--            cursor: pointer;-->
+<!--        }-->
+<!--        .spanicons:hover-->
+<!--        {-->
+<!--            color: #3498db;-->
+<!--            transition-property: color .2s linear 0s;-->
+<!--            -moz-transition: color .2s linear 0s;-->
+<!--            -webkit-transition: color .2s linear 0s;-->
+<!--            -o-transition: color .2s linear 0s;-->
+<!--        }-->
+<!--        .active-->
+<!--        {-->
+<!--            color: #3498db;-->
+<!--        }-->
+
+<!--    </style>-->
+
+    <style>
+        table {
+            border-collapse: collapse;
+            border-spacing: 0;
+            width: 100%;
+            border: 1px solid #ddd;
+        }
+
+        th, td {
+
+            text-align: center;
+
+            padding:8px;
+        }
+        td:hover{
+
+            background-color: grey;
+        }
+
+        tr:nth-child(even){background-color: #f2f2f2}
+    </style>
+</head>
+<body>
+
+<!-- Splash Screen --------------------------------------------------------------------------->
+<div data-role="page" id="pageWelcome" data-theme="b">
+    <div data-role="main" class="ui-content" style="min-height: 90vh;">
+
+        <div id="deviceready" class="w3-center w3-padding-32 blink" style="margin-top: 20vh;">
+            <img src="images/computing-icon-256.png" class="w3-image" style="width: 60%;">
+            <br><br>
+            <span class="event listening w3-center w3-large">  Loading  </span>
+            <span class="event received w3-center w3-large">Welcome to<br><b>EcoCredit<br>Merchant</b></span>
+        </div>
+    </div>
+</div>
+
+<!-- Login Screen --------------------------------------------------------------------------->
+<div data-role="page" id="pageLogin">
+    <div data-role="main" class="ui-content" style="min-height: 90vh;">
+
+
+        <div class="col-xs-12 col-sm-6 col-md-4" style="margin-top: 15vh; ">
+            <div class="box">
+                <div class="box w3-padding-4">
+                    <div class="w3-center">
+                        <img src="images/computing-icon-256.png" alt="Avatar" class="w3-circle"
+                             style="width: 40%; max-width: 320px;">
+                        <h5>EcoCredit<br>Merchant</h5>
+                    </div>
+
+                    <label for="uName">User Name:</label>
+                    <input type="text" name="uName" id="uName" value="" data-clear-btn="true"
+                           placeholder="">
+
+                    <label for="ENum">Password:</label>
+                    <input type="password" name="eNum" id="eNum" value="" data-clear-btn="true"
+                           placeholder="">
+
+                    <button class="w3-btn w3-btn-block w3-blue" id="loginBtn">Login</button>
+
+                    <br><br>
+                    <p class="w3-center w3-small w3-hide">
+                        <a href="https://apps.ceykod.com/apps/E15Computing-android/privacy-policy" target="_blank">
+                            Privacy Policy
+                        </a></p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Error Screen --------------------------------------------------------------------------->
+<div data-role="page" id="pageError" data-theme="a">
+    <div data-role="main" class="ui-content" style="min-height: 90vh;">
+        <div class=" w3-padding-32 w3-center" style="margin-top: 1vh;">
+            <p class="w3-xxxlarge">:-(</p>
+
+            <div class="w3-card-4 w3-margin-16">
+                <div class="w3-container w3-theme-dark">
+                    <h4>Error Occurred !</h4>
+                </div>
+                <div class="w3-container w3-padding-16 w3-center">
+                    <span class="app-errDetails">Unable to connect with server</span> (<span
+                        class="app-errCode">S1000</span>)
+                    <br><br><br>
+
+                    <a href="#" style="width: 50vw!important;" data-rel="back" class="ui-btn ui-btn-inline">Back</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Home Screen --------------------------------------------------------------------------->
+<div data-role="page" id="home">
+    <nd2-include data-src="sideBar.html"></nd2-include>
+
+    <div data-role="header" data-position="fixed" class="wow fadeInDown" data-wow-delay="0.2s">
+        <a href="" id="remindRefresh" class="ui-btn ui-btn-right wow w3-hide">
+            <i class="zmdi zmdi-refresh"></i>
+        </a>
+
+        <a href="#leftpanel" class="ui-btn ui-btn-left wow fadeIn" data-wow-delay='0.8s'><i class="zmdi zmdi-menu"></i></a>
+
+        <h1 id="homeTitle" class="wow fadeIn" data-wow-delay='0.5s'>EcoCredit</h1>
+    </div>
+
+    <div role="main" class="ui-content" data-inset="false">
+
+        <div class="w3-responsive" data-role="nd2tab" data-tab="tabToday">
+            <div class="nd2-card">
+                <div class="card-title">
+
+                </div>
+
+                <br><br>
+
+            </div>
+        </div>
+
+        <div class="w3-responsive" data-role="nd2tab" data-tab="tabCourses">
+
+            <br><br><br>
+        </div>
+
+        <div class="w3-responsive" data-role="nd2tab" data-tab="tabReminders">
+            <div id="reminderContent">
+                Loading...
+            </div>
+            <br><br><br><br>
+        </div>
+
+        <div class="w3-responsive" data-role="nd2tab" data-tab="tabLinks">
+            <br>
+            <ul data-role="listview" data-icon="false" id="appLinks">
+                <li class="w3-hide" data-role="list-divider">
+                    Useful Links
+                </li>
+            </ul>
+            <br><br><br>
+        </div>
+    </div>
+
+    <div data-role="footer" class="w3-bottom w3-theme w3-center w3-hide">
+        <ul data-role="nd2tabs" data-swipe="false" style="margin: 0!important;">
+            <li id="homeTime" class="homeTime footerTab" data-tab="tabToday" data-tab-active="true"
+                onclick="goToPage('timetable')">
+                <i class="material-icons">table_chart</i>
+            </li>
+            <li class="homeReminder footerTab" data-tab="tabReminders" data-tab-active="false"
+                onclick="goToPage('reminders')">
+                <i class="material-icons">question_answer</i>
+            </li>
+            <li class="homeCourse footerTab" data-tab="tabCourses" data-tab-active="false"
+                onclick="goToPage('courses')">
+                <i class="material-icons">turned_in</i>
+            </li>
+            <li class="homeLinks footerTab" data-tab="tabLinks" data-tab-active="false"
+                onclick="goToPage('links')">
+                <i class="material-icons">link</i>
+            </li>
+        </ul>
+    </div>
+</div>
+
+<!-- Page Academic Calender ------------------------------------------------------------------------------>
+
+<!--
+<div data-role="page" id="pageAcademicCalender">
+    <div data-role="header" data-position="fixed" class="wow fadeInDown" data-wow-delay="0.2s">
+        <a href="#home" class="ui-btn ui-btn-left wow fadeIn" data-wow-delay='0.8s'>
+            <i class="zmdi zmdi-chevron-left"></i>
+        </a>
+
+        <h1 class="wow fadeIn" data-wow-delay='0.5s'>Academic Calender</h1>
+        <ul data-role="nd2tabs" data-swipe="true">
+            <li class="w3-hide" id="calenderSem3" data-tab="sem3">Sem 03</li>
+            <li class="w3-hide" id="calenderSem4" data-tab="sem4">Sem 04</li>
+            <li id="calenderShortSem" data-tab="shortSem" data-tab-active="true">Short Sem</li>
+            <li id="calenderSem5" data-tab="sem5">Sem 05</li>
+            <li id="calenderSem6" data-tab="sem6">Sem 06</li>
+            <li id="calenderSem7" data-tab="sem7">Sem 07</li>
+        </ul>
+    </div>
+-->
+
+<div data-role="main" class="ui-content">
+    <div data-role="nd2tab" data-tab="sem3">
+        <nd2-include data-src="res/html_calenderSem3.html"></nd2-include>
+    </div>
+    <div data-role="nd2tab" data-tab="sem4">
+        <nd2-include data-src="res/html_calenderSem4.html"></nd2-include>
+    </div>
+
+    <div data-role="nd2tab" data-tab="shortSem">
+        <nd2-include data-src="res/html_calenderShortSem.html"></nd2-include>
+    </div>
+
+    <div data-role="nd2tab" data-tab="sem5">
+        <nd2-include data-src="res/html_calenderSem5.html"></nd2-include>
+    </div>
+    <div data-role="nd2tab" data-tab="sem6">
+        <nd2-include data-src="res/html_calenderSem6.html"></nd2-include>
+    </div>
+    <div data-role="nd2tab" data-tab="sem7">
+        <nd2-include data-src="res/html_calenderSem7.html"></nd2-include>
+    </div>
+</div>
+</div>
+
+<!-- Page Timetable ------------------------------------------------------------------------------>
+<div data-role="page" id="pageTimetable">
+
+    <div data-role="header" data-position="fixed" class="wow fadeInDown" data-wow-delay="0.2s">
+        <a href="#home" class="ui-btn ui-btn-left wow fadeIn" data-wow-delay='0.8s'>
+            <i class="zmdi zmdi-chevron-left"></i>
+        </a>
+
+        <h1 class="wow fadeIn" data-wow-delay='0.5s'>Timetable</h1>
+
+        <ul data-role="nd2tabs" id="timetableTab" data-swipe="true">
+            <li id="day1" data-tab="tabMonday" data-tab-active="false">Mon</li>
+            <li id="day2" data-tab="tabTuesday" data-tab-active="false">Tue</li>
+            <li id="day3" data-tab="tabWednesday" data-tab-active="false">Wed</li>
+            <li id="day4" data-tab="tabThursday" data-tab-active="false">Thu</li>
+            <li id="day5" data-tab="tabFriday" data-tab-active="false">Fri</li>
+        </ul>
+    </div>
+
+    <div role="main" class="ui-content" data-inset="false">
+        <div class="w3-responsive" data-role="nd2tab" data-tab="tabMonday">
+            <table class="w3-table tabMonday timeTable">
+
+            </table>
+        </div>
+
+        <div class="w3-responsive" data-role="nd2tab" data-tab="tabTuesday">
+            <table class="w3-table tabTuesday timeTable">
+
+            </table>
+        </div>
+
+        <div class="w3-responsive" data-role="nd2tab" data-tab="tabWednesday">
+            <table class="w3-table tabWednesday timeTable">
+
+            </table>
+        </div>
+
+        <div class="w3-responsive" data-role="nd2tab" data-tab="tabThursday">
+            <table class="w3-table tabThursday timeTable">
+
+            </table>
+        </div>
+
+        <div class="w3-responsive" data-role="nd2tab" data-tab="tabFriday">
+            <table class="w3-table tabFriday timeTable">
+
+            </table>
+        </div>
+    </div>
+</div>
+
+<!-- Reminders --------------------------------------------------------------------------->
+<div data-role="page" id="pageReminder">
+
+    <div data-role="header" data-position="fixed" class="wow fadeIn">
+        <!--<a href="" id="remindRefresh" class="ui-btn ui-btn-right wow fadeIn" data-wow-delay='1.2s'><i
+        class="zmdi zmdi-refresh"></i></a>-->
+        <a href="#home" class="ui-btn ui-btn-left wow fadeIn" data-wow-delay='0.8s'><i
+                class="zmdi zmdi-chevron-left"></i></a>
+
+        <h1 class="wow fadeIn" data-wow-delay='0.4s'>Reminders</h1>
+    </div>
+
+    <div role="main" class="ui-content" data-inset="false">
+        <br>
+
+        <!--<div id="reminderContent">
+        Loading...
+      </div>-->
+
+    </div>
+</div>
+
+<!-- Page Course ------------------------------------------------------------------------------>
+<div data-role="page" id="pageCourse">
+    <div data-role="header" data-position="fixed" class="wow fadeInDown" data-wow-delay="0.2s">
+        <a href="#home" class="ui-btn ui-btn-left wow fadeIn" data-wow-delay='0.8s'>
+            <i class="zmdi zmdi-chevron-left"></i>
+        </a>
+
+        <h1 class="wow fadeIn subjName" data-wow-delay='0.5s'>Subject</h1>
+
+    </div>
+
+    <div data-role="main" class="ui-content">
+        <div class=" subjContent"></div>
+    </div>
+</div>
+
+<!-- Page Links ------------------------------------------------------------------------------>
+<div data-role="page" id="pageLinks">
+    <div data-role="header" data-position="fixed" class="wow fadeInDown" data-wow-delay="0.2s">
+        <a href="#home" class="ui-btn ui-btn-left wow fadeIn" data-wow-delay='0.8s'>
+            <i class="zmdi zmdi-chevron-left"></i>
+        </a>
+
+        <h1 class="wow fadeIn subjName" data-wow-delay='0.5s'>Links</h1>
+
+    </div>
+
+    <div data-role="main" class="ui-content">
+        <div class="subjContent"></div>
+    </div>
+</div>
+
+
+<!-- Page Settings ------------------------------------------------------------------------------>
+<div data-role="page" id="pageSettings">
+    <div data-role="header" data-position="fixed" class="wow fadeInDown" data-wow-delay="0.2s">
+        <a href="#home" class="ui-btn ui-btn-left wow fadeIn" data-wow-delay='0.8s'>
+            <i class="zmdi zmdi-chevron-left"></i>
+        </a>
+
+        <h1 class="wow fadeIn" data-wow-delay='0.5s'>Settings</h1>
+
+    </div>
+    <div data-role="main" class="ui-content">
+
+    </div>
+</div>
+
+<!-- About ---------------------------------------------------------------------------------->
+<div data-role="page" id="pageAbout">
+    <div data-role="header" data-position="fixed" class="wow fadeInDown" data-wow-delay="0.2s">
+        <a href="#home" class="ui-btn ui-btn-left wow fadeIn" data-wow-delay='0.8s'>
+            <i class="zmdi zmdi-chevron-left"></i>
+        </a>
+
+        <h1 class="wow fadeIn" data-wow-delay='0.5s'>About the App</h1>
+    </div>
+
+    <div data-role="main" class="ui-content">
+        <nd2-include data-src="res/html_about.html"></nd2-include>
+    </div>
+</div>
+<div data-role="page" id="pageTopUp">
+    <div data-role="header" data-position="fixed" class="wow fadeInDown" data-wow-delay="0.2s">
+        <a href="#home" class="ui-btn ui-btn-left wow fadeIn" data-wow-delay='0.8s'>
+            <i class="zmdi zmdi-chevron-left"></i>
+        </a>
+
+        <h1 class="wow fadeIn" data-wow-delay='0.5s'>Eco Credits</h1>
+    </div>
+
+    <div data-role="main" class="ui-content">
+        <nd2-include data-src="res/html_about.html"></nd2-include>
+    </div>
+</div>
+
+<!-- Page Contacts ------------------------------------------------------------------------------>
+<div data-role="page" id="pageContact">
+
+    <div data-role="header" data-position="fixed" class="wow fadeInDown" data-wow-delay="0.2s">
+        <a href="#home" class="ui-btn ui-btn-left wow fadeIn" data-wow-delay='0.8s'><i
+                class="zmdi zmdi-chevron-left"></i></a>
+
+        <h1 class="wow fadeIn" data-wow-delay='0.5s'>Contact</h1>
+    </div>
+
+    <div data-role="popup" id="popupContact">
+
+        <div data-role="header">
+            <h1 class='nd-title'>Send Message</h1>
+        </div>
+
+        <div data-role="content">
+            <p>Send this message to the developer.<br><br>
+                <small>(Please turn on mobile data or connect to a WiFi Network before click on the send button)</small>
+            </p>
+            <br>
+            <a href="#" data-rel="back" data-role="button" data-inline="true"
+               class="ui-btn ui-btn-primary" id="contactSendButton"><i class='zmdi zmdi-check'></i> Send Now</a>
+            <a href="#" data-rel="back" data-role="button" data-inline="true"
+               class="ui-btn ui-btn-primary"><i class='zmdi zmdi-cancel'></i> Cancel</a>
+
+        </div>
+    </div>
+
+    <div role="main" class="ui-content" data-inset="false">
+        <br>
+
+        <p>Please use this section to give your suggestions, feedback and anything you like to share with us.</p>
+        <br>
+
+        <div class="box">
+            <form id="contactForm" class="" method="post">
+                <label for="userName">Your Name:</label>
+                <input type="text" name="userName" id="userName" value="" data-clear-btn="true"
+                       placeholder="" required>
+                <label for="userEmail">Your email:</label>
+                <input type="email" name="userEmail" id="userEmail" value="" data-clear-btn="true" placeholder=""
+                       required>
+                <label for="userMessage">Message:</label>
+                <textarea cols="40" rows="8" name="userMessage" id="userMessage" required
+                          placeholder=""></textarea>
+                <br>
+
+                <button type="submit" id="contactButton" class="ui-btn  ui-btn-raised clr-primary" data-rel="popup"
+                        data-transition="pop"
+                        data-position-to="window" data-role="button">Send Now
+                </button>
+            </form>
+        </div>
+    </div>
+</div>
+
+<!--<script type="text/javascript" src="cordova.js"></script>-->
+<script type="text/javascript" src="js/index.js"></script>
+<script type="text/javascript" src="js/jquery.js"></script>
+
+<!-- Cordova Theme -->
+<script src="vendor/waves/waves.min.js"></script>
+<script src="vendor/wow/wow.min.js"></script>
+<script src="vendor/js/nativedroid2.js"></script>
+
+<!-- Cordova Plugins -->
+<script type="text/javascript" src="js/script.js"></script>
+<script type="text/javascript" src="js/browser.js"></script>
+<script type="text/javascript" src="js/api.js"></script>
+<script type="text/javascript" src="js/device.js"></script>
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+
+</body>
+</html>

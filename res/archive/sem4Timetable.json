@@ -1,0 +1,275 @@
+{
+  "version": 7,
+  "semester": 4,
+  "subjects": {
+    "CO224": "Computer Architecture<br><small>(CO224)</small>",
+    "CO225": "Software Construction<br><small>(CO225)</small>",
+    "CO226": "Database Systems<br><small>(CO226)</small>",
+    "EE285": "Electronics I<br><small>(EE285)</small>",
+    "EM202": "Mathematics IV<br><small>(EM202)</small>",
+    "EM314": "Numerical Methods<br><small>(EM314)</small>",
+
+    "TeaBreak": "Tea Break",
+    "LunchBreak": "Lunch Break",
+    "Free": "",
+    "CO224-Labs": "Lab: Computer Architecture<br><small>(CO224)</small>",
+    "CO225-Labs": "Lab: Software Construction<br><small>(CO225)</small>",
+    "CO226-Labs": "Lab: Database Systems<br><small>(CO226)</small>",
+    "EE285-Labs": "Lab: Electronics I<br><small>(EE285)</small>",
+    "EM314-Labs": "Lab: Numerical Methods<br><small>(EM314)</small>",
+    "CO224-Tutorial": "Tutorial: Computer Architecture<br><small>(CO224)</small>",
+    "EM202-Tutorial": "EM202: Tutorial",
+    "ESU": "ESU Hour",
+    "Note2": "Note2"
+  },
+  "Monday": {
+    "8.00": {
+      "css": "",
+      "subj": "CO224",
+      "loc": "SR02",
+      "to": "9.50"
+    },
+    "9.50": {
+      "css": "tr-tea",
+      "subj": "TeaBreak",
+      "loc": "",
+      "to": "10.10"
+    },
+    "10.10": {
+      "css": "",
+      "subj": "CO225",
+      "loc": "SR02",
+      "to": "11.05"
+    },
+    "11.05": {
+      "css": "",
+      "subj": "EE285",
+      "loc": "Lec19",
+      "to": "12.00"
+    },
+    "12.00": {
+      "css": "tr-lunch",
+      "subj": "LunchBreak",
+      "loc": "",
+      "to": "1.00"
+    },
+    "1.00": {
+      "css": "",
+      "subj": "EM202",
+      "loc": "Lec07",
+      "to": "1.55"
+    },
+    "1.55": {
+      "css": "",
+      "subj": "Free",
+      "loc": "",
+      "to": "2.50"
+    },
+    "2.50": {
+      "css": "tr-tea",
+      "subj": "TeaBreak",
+      "loc": "",
+      "to": "3.10"
+    },
+    "3.10": {
+      "css": "",
+      "subj": "CO224-Labs",
+      "loc": "",
+      "to": "5.00"
+    }
+  },
+  "Tuesday": {
+    "8.00": {
+      "css": "",
+      "subj": "CO226",
+      "loc": "Lec21",
+      "to": "9.20"
+    },
+    "9.20": {
+      "css": "tr-tea",
+      "subj": "TeaBreak",
+      "loc": "",
+      "to": "9.40"
+    },
+    "9.40": {
+      "css": "",
+      "subj": "EM314",
+      "loc": "Lec08",
+      "to": "11.00"
+    },
+    "11.05": {
+      "css": "",
+      "subj": "Free",
+      "loc": "",
+      "to": "12.00"
+    },
+    "12.00": {
+      "css": "tr-lunch",
+      "subj": "LunchBreak",
+      "loc": "",
+      "to": "1.00"
+    },
+    "1.00": {
+      "css": "",
+      "subj": "EM314-Labs",
+      "loc": "Lab",
+      "to": "2.50"
+    },
+    "2.50": {
+      "css": "tr-tea",
+      "subj": "TeaBreak",
+      "loc": "",
+      "to": "3.10"
+    },
+    "3.10": {
+      "css": "",
+      "subj": "Free",
+      "loc": "",
+      "to": "4.05"
+    },
+    "4.50": {
+      "css": "",
+      "subj": "Note2",
+      "loc": "",
+      "to": "5.00"
+    }
+  },
+  "Wednesday": {
+    "8.00": {
+      "css": "",
+      "subj": "CO225",
+      "loc": "Lec19",
+      "to": "8.55"
+    },
+    "8.55": {
+      "css": "",
+      "subj": "Free",
+      "loc": "",
+      "to": "9.50"
+    },
+    "9.50": {
+      "css": "tr-tea",
+      "subj": "TeaBreak",
+      "loc": "",
+      "to": "10.10"
+    },
+    "10.10": {
+      "css": "",
+      "subj": "Free",
+      "loc": "",
+      "to": "11.05"
+    },
+    "11.05": {
+      "css": "",
+      "subj": "ESU",
+      "loc": "",
+      "to": "12.00"
+    },
+    "12.00": {
+      "css": "tr-lunch",
+      "subj": "LunchBreak",
+      "loc": "",
+      "to": "1.00"
+    },
+    "1.00": {
+      "css": "",
+      "subj": "EM202",
+      "loc": "Lec08",
+      "to": "1.55"
+    },
+    "1.55": {
+      "css": "",
+      "subj": "Free",
+      "loc": "",
+      "to": "5.00"
+    }
+  },
+  "Thursday": {
+    "8.00": {
+      "css": "",
+      "subj": "CO226-Labs",
+      "loc": "TF",
+      "to": "10.00"
+    },
+    "10.00": {
+      "css": "tr-tea",
+      "subj": "TeaBreak",
+      "loc": "",
+      "to": "10.30"
+    },
+    "10.30": {
+      "css": "",
+      "subj": "EM314",
+      "loc": "SR03",
+      "to": "11.55"
+    },
+    "12.00": {
+      "css": "tr-lunch",
+      "subj": "LunchBreak",
+      "loc": "",
+      "to": "1.00"
+    },
+    "1.00": {
+      "css": "",
+      "subj": "EE285-Labs",
+      "loc": "",
+      "to": "4.05"
+    }
+  },
+  "Friday": {
+    "8.00": {
+      "css": "",
+      "subj": "CO224-Tutorial",
+      "loc": "TF",
+      "to": "8.55"
+    },
+    "8.55": {
+      "css": "",
+      "subj": "CO225",
+      "loc": "TF",
+      "to": "9.50"
+    },
+    "9.50": {
+      "css": "tr-tea",
+      "subj": "TeaBreak",
+      "loc": "",
+      "to": "10.10"
+    },
+    "10.10": {
+      "css": "",
+      "subj": "EE285",
+      "loc": "Lec10",
+      "to": "12.00"
+    },
+    "12.00": {
+      "css": "tr-lunch",
+      "subj": "LunchBreak",
+      "loc": "",
+      "to": "1.00"
+    },
+    "1.00": {
+      "css": "",
+      "subj": "EM202-Tutorial",
+      "loc": "Lec03",
+      "to": "1.55"
+    },
+    "1.55": {
+      "css": "",
+      "subj": "Free",
+      "loc": "",
+      "to": "2.50"
+    },
+    "2.50": {
+      "css": "tr-tea",
+      "subj": "TeaBreak",
+      "loc": "",
+      "to": "3.10"
+    },
+    "3.10": {
+      "css": "",
+      "subj": "CO225-Labs",
+      "loc": "",
+      "to": "5.00"
+    }
+  }
+}

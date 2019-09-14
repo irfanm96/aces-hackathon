@@ -1,0 +1,143 @@
+{
+  "version": 5,
+  "semester": 3,
+  "subjects": {
+    "CO221": {
+      "name": "Digital Design",
+      "content": "Introduction to digital logic, Number systems and digital logic, Combination logic circuits, Modular design of combinational circuits, Sequential logic circuits and memory elements, Design of synchronous sequential circuits, Analysis and design of asynchronous sequential circuits, Digital circuit design and implementation",
+      "allocation": "Lectures - 30h , Practical classes - 16h, Assignments - 14h",
+      "img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+      "bg": "clr-bg-orange",
+      "modules": {
+        "Combinational Logic": "",
+        "Synchronous Sequential Circuits": "",
+        "Asynchronous Sequential Circuits": ""
+      },
+      "lecturers": {
+        "0": {
+          "name": "Dr. Kamalanath Samarakoon",
+          "title": "B.Sc. Eng. (Peradeniya), M.Eng. (AIT), Ph.D. (Cardiff), C.Eng. (SL), C.Eng. (UK), MIET (UK) , MIE (SL), MIEEE (USA)",
+          "email": "kamalanath@ce.pdn.ac.lk",
+          "teleOffice": "0812393918",
+          "teleMobile": "0712277994"
+        },
+        "1": {
+          "name": "Shirley Devapriya Dewasurendra",
+          "title": "B.Sc.Eng.(Peradeniya), M.Eng.(AIT), D.E.A., PhD (INP,Grenoble), C.Eng. (SL), M.I.Mech.E.(UK), C.Eng. (UK) MIEEE, MIE(SL)",
+          "email": "devapriyad@pdn.ac.lk",
+          "teleOffice": "0812393478",
+          "teleMobile": ""
+        }
+      }
+    },
+    "CO222": {
+      "name": "Programming Methodology",
+      "content": "Problem solving, Storing and naming data and operators, Control flow, Using standard library functions, Structured programming, Static allocation, References (pointers), Linked structures, Memory layout, Language tool-chains, Support tools.",
+      "allocation": "Lectures - 24h , Tutorial classes - 8h, Practical classes - 14h, Assignments - 12h",
+      "img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+      "bg": "clr-bg-blue",
+      "modules": {
+        "0": "NULL"
+      },
+      "lecturers": {
+        "0": {
+          "name": "Dr. Roshan G. Ragel",
+          "title": "BSc Eng (Peradeniya), PhD (UNSW), SMIEEE (USA), MIEEE-CS (USA)",
+          "email": "roshanr@ce.pdn.ac.lk",
+          "teleOffice": "0812393913",
+          "teleMobile": ""
+        }
+      }
+    },
+    "CO223": {
+      "name": "Computer Communication<br>Networks I",
+      "content": "Communication networks, Terminology, classification, and performance metrics, Network Design: Layered network architectures, Network applications and transport services, Packet-switching networks, Transmission over links and local area networks, Physical transmission fundamentals, Circuit-switching networks.",
+      "allocation": "Lectures - 30h, Tutorial classes - 2h, Practical classes - 22h, Assignments - 4h",
+      "img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+      "bg": "clr-bg-blue-grey",
+      "modules": {
+        "0": "NULL"
+      },
+      "lecturers": {
+        "0": {
+          "name": "Dr. Asitha Bandaranayake",
+          "title": "BSc Eng (Peradeniya), PhD (Cincinnati)",
+          "email": "asithab@pdn.ac.lk",
+          "teleOffice": "",
+          "teleMobile": "0715117771"
+        }
+      }
+    },
+    "EE282": {
+      "name": "Network Analysis",
+      "content": "Review of DC circuits, First-order circuits, Second-order circuits, Sinusoidal steady state analysis, Laplace transform and network analysis, Two-port networks",
+      "allocation": "Lectures - 45h",
+      "img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+      "bg": "clr-bg-green",
+      "modules": {
+        "0": "NULL"
+      },
+      "lecturers": {
+        "0": "NULL"
+      }
+    },
+    "EM201": {
+      "name": "Mathematics III",
+      "content": "Introduction, Different types of differential equations and solutions, Modelling with differential equations, First order differential Equations, Differential equations with constant coefficients, Linear differential equations, Solutions in series, Laplace transformations, System of ordinary differential equations, Numerical solutions to ODEs, Concept of probability, Discrete probability distributions.",
+      "allocation": "Lectures - 36h , Tutorial classes - 9h",
+      "img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+      "bg": "clr-bg-red",
+      "modules": {
+        "0": "NULL"
+      },
+      "lecturers": {
+        "0": {
+          "name": "Dr. S. P. C. Perera",
+          "title": "",
+          "email": "pperera@pdn.ac.lk",
+          "teleOffice": "",
+          "teleMobile": ""
+        },
+        "1": {
+          "name": "Dr. D.S.K. Karunasinghe",
+          "title": "",
+          "email": "",
+          "teleOffice": "",
+          "teleMobile": ""
+        }
+      }
+    },
+    "EM313": {
+      "name": "Discreet Mathematics",
+      "content": "Fundamentals, Combinatories, Graph theory, Algorithms, Prepositional calculus, Mathematical models for computing machines.",
+      "allocation": "Lectures - 36h , Tutorial Classes - 9h",
+      "img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+      "bg": "clr-bg-deep-orange",
+      "modules": {
+        "Logic and Proof": "",
+        "Number Theory": "",
+        "Group Theory": "",
+        "Growth of Functions": "",
+        "Graph Theory": "",
+        "Algorithms": "",
+        "Computing Machines": ""
+      },
+      "lecturers": {
+        "0": {
+          "name": "Dr. G. W. R. M. R. Palamakumbura",
+          "title": "",
+          "email": "rpalam@pdn.ac.lk",
+          "teleOffice": "0812393349",
+          "teleMobile": ""
+        },
+        "1": {
+          "name": "Dr. R. Meegaskumbura",
+          "title": "",
+          "email": "rochanam@pdn.ac.lk",
+          "teleOffice": "0812393354",
+          "teleMobile": ""
+        }
+      }
+    }
+  }
+}

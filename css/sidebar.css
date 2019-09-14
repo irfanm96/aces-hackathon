@@ -1,0 +1,107 @@
+/* fallback */
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/materialicons.woff2') format('woff2');
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-feature-settings: 'liga';
+  -webkit-font-smoothing: antialiased;
+  padding-left: 25px !important;
+  padding-right: 15px !important;
+}
+
+#leftpanel #sidebar-nav-list {
+  position: relative;
+}
+
+#leftpanel #sidebar-nav-list .sidebar-nav-item {
+  position: relative;
+  z-index: 4;
+  box-shadow: 0 2px 4px transparent;
+  transition: all 0.25s ease-in-out;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+#leftpanel #sidebar-nav-list .sidebar-nav-item a {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  padding: 10px 0 10px 0;
+  color: #3f3f3f;
+}
+
+#leftpanel #sidebar-nav-list .sidebar-nav-item a .material-icons {
+  padding: 0 8px 2px 0;
+  color: #607D8B;
+}
+
+#leftpanel #sidebar-nav-list .sidebar-nav-item:hover {
+  z-index: 5;
+  background-color: white;
+}
+
+#leftpanel #sidebar-nav-list .sidebar-nav-item:nth-child(1) {
+  -webkit-animation-delay: 0.05s;
+  animation-delay: 0.05s;
+}
+
+#leftpanel #sidebar-nav-list .sidebar-nav-item:nth-child(2) {
+  -webkit-animation-delay: 0.1s;
+  animation-delay: 0.1s;
+}
+
+#leftpanel #sidebar-nav-list .sidebar-nav-item:nth-child(3) {
+  -webkit-animation-delay: 0.15s;
+  animation-delay: 0.15s;
+}
+
+#leftpanel #sidebar-nav-list .sidebar-nav-item:nth-child(4) {
+  -webkit-animation-delay: 0.2s;
+  animation-delay: 0.2s;
+}
+
+#leftpanel #sidebar-nav-list .sidebar-nav-item:nth-child(5) {
+  -webkit-animation-delay: 0.25s;
+  animation-delay: 0.25s;
+}
+
+#leftpanel #sidebar-nav-list .sidebar-nav-item:nth-child(6) {
+  -webkit-animation-delay: 0.3s;
+  animation-delay: 0.3s;
+}
+
+#leftpanel #sidebar-nav-list .sidebar-nav-item:nth-child(7) {
+  -webkit-animation-delay: 0.35s;
+  animation-delay: 0.35s;
+}
+
+#leftpanel #sidebar-nav-list .sidebar-nav-item:nth-child(8) {
+  -webkit-animation-delay: 0.4s;
+  animation-delay: 0.4s;
+}
+
+#sidebar-nav:target {
+  -webkit-transform: translateX(0px);
+  transform: translateX(0px);
+}
+
+#sidebar-nav:target .sidebar-nav-item {
+  -webkit-animation: nav-item-fade-in 1s ease-in-out;
+  animation: nav-item-fade-in 1s ease-in-out;
+}

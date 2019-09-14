@@ -1,0 +1,214 @@
+<h3 class="w3-text-light-blue">Version 2.2.4</h3>
+<hr>
+
+<!--<div class="nd2-card">-->
+<!--    <div class="card-title has-avatar ">-->
+<!--        <h3 class="card-primary-title">Mobile Number</h3>-->
+<!--        <hr>-->
+<!--        <h3 class="card-primary-title" id="mobile-number">0776268008</h3>-->
+<!--        </h5>-->
+<!--    </div>-->
+
+<!--</div>-->
+
+<div class="nd2-card">
+    <div class="card-title has-avatar ">
+        <h3 class="card-primary-title">Enter the Mobile Number</h3>
+        <hr>
+
+        <div class="col-md-12">
+            <input type="tel" name="name" id="telNumber" class="form-control tel" value=""/>
+            <div style="overflow-x:auto;">
+                <table>
+                    <tr>
+                        <td class="num">
+                            <div >
+                                <div class="txt">
+                                    1
+                                </div>
+                            </div>
+                        </td>
+                        <td class="num">
+                            <div >
+                                <div class="txt">
+                                    2
+                                </div>
+                            </div>
+                        </td>
+                        <td class="num">
+                            <div >
+                                <div class="txt">
+                                    3
+                                </div>
+                            </div>
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td class="num">
+                            <div >
+                                <div class="txt">
+                                    4
+                                </div>
+                            </div>
+                        </td>
+
+                        <td class="num">
+                            <div >
+                                <div class="txt">
+                                    5
+                                </div>
+                            </div>
+                        </td>
+                        <td  class="num">
+                            <div>
+                                <div class="txt">
+                                    6
+                                </div>
+                            </div>
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td class="num">
+                            <div >
+                                <div class="txt">
+                                    7
+                                </div>
+                            </div>
+                        </td>
+                        <td class="num">
+                            <div >
+                                <div class="txt">
+                                    8
+                                </div>
+                            </div>
+                        </td>
+                        <td class="num">
+                            <div >
+                                <div class="txt">
+                                    9
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="num">
+                                <div class="txt">
+                                    *
+                                </div>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="num">
+                                <div class="txt">
+                                    0
+                                </div>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="num">
+                                <div class="txt">
+                                    #
+                                </div>
+                            </div>
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td>
+                            <button onclick="clearNum()" class="w3-btn w3-btn-block w3-blue" >Clear</button>
+
+                        </td>
+                        <td>
+                        </td>
+                        <td>
+                            <button onclick="topUp()" class="w3-btn w3-btn-block w3-blue" >Confirm</button>
+                        </td>
+
+                    </tr>
+                </table>
+            </div>
+
+        </div>
+
+        <br>
+        <hr>
+        <!--    <p class="w3-center">Powered by CEYKOD Solutions</p>-->
+
+        <div class="w3-container w3-center">
+            <a class="contact-ico-a" href="https://www.facebook.com/ceykod/" target="_blank">
+                <img class="w3-grayscale-max contact-ico" src="images/ico/facebook-128.png"/>
+            </a>
+
+            <a class="contact-ico-a" href="https://twitter.com/ceykod_s">
+                <img class="w3-grayscale-max contact-ico" src="images/ico/twitter-128.png"/>
+            </a>
+
+            <a class="contact-ico-a" href="https://github.com/ceykod">
+                <img class="w3-grayscale-max contact-ico" src="images/ico/github-128.png"/>
+            </a>
+
+            <a class="contact-ico-a" href="https://www.youtube.com/channel/UCkqfYRsQvk6eMpwyJFSKtDw">
+                <img class="w3-grayscale-max contact-ico" src="images/ico/youtube-128.png"/>
+            </a>
+            </p>
+        </div>
+
+    </div>
+</div>
+<div id="debugConsole" class="nd2-card  w3-hide">
+    <div class="card-title has-avatar ">
+        <h3 class="card-primary-title">Current Status</h3>
+        <hr>
+        <p>
+            Subjects version: <span id="versionSubj">1</span><br>
+            Timetable version: <span id="versionTimetable">1</span><br>
+        </p>
+
+        <p class="w3-center">
+            <span class="uName"></span> (<span class="eNum"></span>)
+        </p>
+    </div>
+</div>
+
+
+<script>
+    $(document).ready(function () {
+
+        $('.num').click(function () {
+            var num = $(this);
+            var text = $.trim(num.find('.txt').clone().children().remove().end().text());
+
+            var telNumber = $('#telNumber');
+
+            var textNum = telNumber.val() + text;
+            if (textNum.length === 3) {
+                textNum += '-';
+            }
+
+            if (textNum.length > 11) {
+                alert("invalid number");
+                $(telNumber).val('');
+                return;
+            }
+
+
+            $(telNumber).val(textNum);
+        });
+
+    });
+
+    function clearNum() {
+        var telNumber = $('#telNumber').val();
+        var newStr;
+        if(telNumber.length===4){
+             newStr = telNumber.substring(0, telNumber.length - 2);
+        }else {
+            newStr = telNumber.substring(0, telNumber.length - 1);
+
+        }
+        $('#telNumber').val(newStr);
+    }
+</script>
