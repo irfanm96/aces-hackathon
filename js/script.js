@@ -72,7 +72,7 @@ function appBegin() {
 
    } else if (passSet == "1") {     // Already logged in
       loadRequired();
-      $.mobile.changePage("#home", {
+      $.mobile.changePage("#pageDashboard", {
          transition: "fade"
       });
       //goToPage('timetable');
