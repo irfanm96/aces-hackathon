@@ -186,7 +186,12 @@ function logoutButtonClick() {
 
    var storage = window.localStorage;
    storage.setItem("sett", "0");
-   navigator.app.exitApp();
+   // navigator.app.exitApp();
+
+    $.mobile.changePage("#pageLogin", {
+        transition: "fade"
+    });
+
 }
 
 //-----------------------------------------------------------------------------------------
