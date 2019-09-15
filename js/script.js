@@ -33,6 +33,22 @@ function homeLink() {
    $("#leftpanel").panel("close");
 }
 
+function loadTopUp() {
+   goToPage('pageTopUp');
+   // $("#homeTime").trigger("click");
+   $("#leftpanel").panel("close");
+}
+function loadDashboard() {
+   goToPage('pageDashboard');
+   // $("#homeTime").trigger("click");
+   $("#leftpanel").panel("close");
+}
+function loadReward() {
+   goToPage('pageReward');
+   // $("#homeTime").trigger("click");
+   $("#leftpanel").panel("close");
+}
+
 function appBegin() {
 
    console.log(">> App begin");

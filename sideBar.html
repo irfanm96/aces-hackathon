@@ -19,14 +19,19 @@
   </div>
 
   <ul id="sidebar-nav-list" data-role="listview" data-inset="false" data-icon="false">
-    <li class="sidebar-nav-item" id="nav-item-home"  onclick="homeLink()">
-      <a href="#home" style="background-color: rgba(207, 207, 207, 0.2)">
+    <li class="sidebar-nav-item" id="nav-item-home"  onclick="loadDashboard()">
+      <a href="#pageDashboard" style="background-color: rgba(207, 207, 207, 0.2)">
         <i class="material-icons">home</i>Home
       </a>
     </li>
-    <li class="sidebar-nav-item" id="nav-item-timetable" onclick="loadTimetablePage()">
-      <a href="#pageTimetable" id="buttonTimetable">
-        <i class="material-icons">table_chart</i>Timetable
+    <li class="sidebar-nav-item" id="nav-item-topup" onclick="loadTopUp()">
+      <a href="#pageTopUp" id="buttonTopup">
+        <i class="material-icons">table_chart</i>TopUp
+      </a>
+    </li>
+   <li class="sidebar-nav-item" id="nav-item-reward" onclick="loadReward()">
+      <a href="#pageTopUp" id="buttonReward">
+        <i class="material-icons">table_chart</i>Reward
       </a>
     </li>
 
