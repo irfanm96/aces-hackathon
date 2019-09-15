@@ -27,7 +27,7 @@
     <meta name="viewport"
           content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
 
-    <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<!--    <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">-->
     <!-- jQuery Framewors JS Scripts -->
     <script src="vendor/js/jquery.min.js"></script>
     <script src="vendor/js/jquery-ui.min.js"></script>
@@ -173,6 +173,27 @@
 
         tr:nth-child(even){background-color: #f2f2f2}
 
+        .ui-input-text:after{
+            content: "" !important;
+            position: relative !important;
+            width: 100% !important;
+            height: 2px !important;
+            background-color: #cccccc !important;
+        }
+
+        .ui-input-text >input{
+            /*height:17px;*/
+            border: 0;
+            width: calc(100% - 2px);
+            /*margin-left:1px;*/
+            box-shadow: -8px 10px 0px -7px #ebebeb, 8px 10px 0px -7px #ebebeb;
+            -webkit-transition: box-shadow 0.3s;
+            transition: box-shadow 0.3s;
+        }
+        input[type=text]:focus {
+            outline: none;
+            box-shadow: -8px 10px 0px -7px #4EA6EA, 8px 10px 0px -7px #4EA6EA;
+        }
 
 
         /*meter::before {*/
@@ -337,27 +358,6 @@
     </div>
 </div>
 
-<!-- Page Academic Calender ------------------------------------------------------------------------------>
-
-<!--
-<div data-role="page" id="pageAcademicCalender">
-    <div data-role="header" data-position="fixed" class="wow fadeInDown" data-wow-delay="0.2s">
-        <a href="#home" class="ui-btn ui-btn-left wow fadeIn" data-wow-delay='0.8s'>
-            <i class="zmdi zmdi-chevron-left"></i>
-        </a>
-
-        <h1 class="wow fadeIn" data-wow-delay='0.5s'>Academic Calender</h1>
-        <ul data-role="nd2tabs" data-swipe="true">
-            <li class="w3-hide" id="calenderSem3" data-tab="sem3">Sem 03</li>
-            <li class="w3-hide" id="calenderSem4" data-tab="sem4">Sem 04</li>
-            <li id="calenderShortSem" data-tab="shortSem" data-tab-active="true">Short Sem</li>
-            <li id="calenderSem5" data-tab="sem5">Sem 05</li>
-            <li id="calenderSem6" data-tab="sem6">Sem 06</li>
-            <li id="calenderSem7" data-tab="sem7">Sem 07</li>
-        </ul>
-    </div>
--->
-
 <div data-role="main" class="ui-content">
     <div data-role="nd2tab" data-tab="sem3">
         <nd2-include data-src="res/html_calenderSem3.html"></nd2-include>
@@ -520,44 +520,221 @@
 </div>
 <!--top up page-->
 <div data-role="page" id="pageReward">
+    <nd2-include data-src="sideBar.html"></nd2-include>
+
     <div data-role="header" data-position="fixed" class="wow fadeInDown" data-wow-delay="0.2s">
-        <a href="#pageDashboard" class="ui-btn ui-btn-left wow fadeIn" data-wow-delay='0.8s'>
-            <i class="zmdi zmdi-chevron-left"></i>
+        <a href="" id="" class="ui-btn ui-btn-right wow w3-hide">
+            <i class="zmdi zmdi-refresh"></i>
         </a>
 
-        <h1 class="wow fadeIn" data-wow-delay='0.5s'>Eco Credits</h1>
+        <a href="#leftpanel" class="ui-btn ui-btn-left wow fadeIn" data-wow-delay='0.8s'><i class="zmdi zmdi-menu"></i></a>
+
+        <h1  class="wow fadeIn" data-wow-delay='0.5s'>EcoCredit</h1>
     </div>
 
-    <div data-role="main" class="ui-content">
-        <nd2-include data-src="res/html_about.html"></nd2-include>
+    <div role="main" class="ui-content" data-inset="false">
+
+        <div class="w3-responsive" data-role="nd2tab" data-tab="tabToday">
+            <div class="nd2-card">
+
+                <div data-role="main" class="ui-content">
+                    <nd2-include data-src="res/html_about.html"></nd2-include>
+                </div>
+                <br><br>
+
+            </div>
+        </div>
+
+        <div class="w3-responsive" data-role="nd2tab" data-tab="tabCourses">
+
+            <br><br><br>
+        </div>
+
+        <div class="w3-responsive" data-role="nd2tab" data-tab="tabReminders">
+            <div >
+                Loading...
+            </div>
+            <br><br><br><br>
+        </div>
+
+        <div class="w3-responsive" data-role="nd2tab" data-tab="tabLinks">
+            <br>
+            <ul data-role="listview" data-icon="false" >
+                <li class="w3-hide" data-role="list-divider">
+                    Useful Links
+                </li>
+            </ul>
+            <br><br><br>
+        </div>
+    </div>
+
+    <div data-role="footer" class="w3-bottom w3-theme w3-center w3-hide">
+        <ul data-role="nd2tabs" data-swipe="false" style="margin: 0!important;">
+            <li  class="homeTime footerTab" data-tab="tabToday" data-tab-active="true"
+                onclick="goToPage('timetable')">
+                <i class="material-icons">table_chart</i>
+            </li>
+            <li class="homeReminder footerTab" data-tab="tabReminders" data-tab-active="false"
+                onclick="goToPage('reminders')">
+                <i class="material-icons">question_answer</i>
+            </li>
+            <li class="homeCourse footerTab" data-tab="tabCourses" data-tab-active="false"
+                onclick="goToPage('courses')">
+                <i class="material-icons">turned_in</i>
+            </li>
+            <li class="homeLinks footerTab" data-tab="tabLinks" data-tab-active="false"
+                onclick="goToPage('links')">
+                <i class="material-icons">link</i>
+            </li>
+        </ul>
     </div>
 </div>
 
 <div data-role="page" id="pageDashboard">
+
+
+
+    <nd2-include data-src="sideBar.html"></nd2-include>
+
     <div data-role="header" data-position="fixed" class="wow fadeInDown" data-wow-delay="0.2s">
-        <a href="#pageDashboard" class="ui-btn ui-btn-left wow fadeIn" data-wow-delay='0.8s'>
-            <i class="zmdi zmdi-chevron-left"></i>
+        <a href="" id="" class="ui-btn ui-btn-right wow w3-hide">
+            <i class="zmdi zmdi-refresh"></i>
         </a>
 
-        <h1 class="wow fadeIn" data-wow-delay='0.5s'>Eco Credits</h1>
+        <a href="#leftpanel" class="ui-btn ui-btn-left wow fadeIn" data-wow-delay='0.8s'><i class="zmdi zmdi-menu"></i></a>
+
+        <h1  class="wow fadeIn" data-wow-delay='0.5s'>EcoCredit</h1>
     </div>
 
-    <div data-role="main" class="ui-content">
-        <nd2-include data-src="res/dashboard.html"></nd2-include>
+    <div role="main" class="ui-content" data-inset="false">
+
+        <div class="w3-responsive" data-role="nd2tab" data-tab="tabToday">
+            <div class="nd2-card">
+
+                <div data-role="main" class="ui-content">
+                    <nd2-include data-src="res/dashboard.html"></nd2-include>
+                </div>
+                <br><br>
+
+            </div>
+        </div>
+
+        <div class="w3-responsive" data-role="nd2tab" data-tab="tabCourses">
+
+            <br><br><br>
+        </div>
+
+        <div class="w3-responsive" data-role="nd2tab" data-tab="tabReminders">
+            <div >
+                Loading...
+            </div>
+            <br><br><br><br>
+        </div>
+
+        <div class="w3-responsive" data-role="nd2tab" data-tab="tabLinks">
+            <br>
+            <ul data-role="listview" data-icon="false" >
+                <li class="w3-hide" data-role="list-divider">
+                    Useful Links
+                </li>
+            </ul>
+            <br><br><br>
+        </div>
     </div>
+
+    <div data-role="footer" class="w3-bottom w3-theme w3-center w3-hide">
+        <ul data-role="nd2tabs" data-swipe="false" style="margin: 0!important;">
+            <li  class="homeTime footerTab" data-tab="tabToday" data-tab-active="true"
+                 onclick="goToPage('timetable')">
+                <i class="material-icons">table_chart</i>
+            </li>
+            <li class="homeReminder footerTab" data-tab="tabReminders" data-tab-active="false"
+                onclick="goToPage('reminders')">
+                <i class="material-icons">question_answer</i>
+            </li>
+            <li class="homeCourse footerTab" data-tab="tabCourses" data-tab-active="false"
+                onclick="goToPage('courses')">
+                <i class="material-icons">turned_in</i>
+            </li>
+            <li class="homeLinks footerTab" data-tab="tabLinks" data-tab-active="false"
+                onclick="goToPage('links')">
+                <i class="material-icons">link</i>
+            </li>
+        </ul>
+    </div>
+
+
 </div>
 <div data-role="page" id="pageTopUp">
+    <nd2-include data-src="sideBar.html"></nd2-include>
+
     <div data-role="header" data-position="fixed" class="wow fadeInDown" data-wow-delay="0.2s">
-        <a href="#pageDashboard" class="ui-btn ui-btn-left wow fadeIn" data-wow-delay='0.8s'>
-            <i class="zmdi zmdi-chevron-left"></i>
+        <a href=""  class="ui-btn ui-btn-right wow w3-hide">
+            <i class="zmdi zmdi-refresh"></i>
         </a>
 
-        <h1 class="wow fadeIn" data-wow-delay='0.5s'>Eco Credits</h1>
+        <a href="#leftpanel" class="ui-btn ui-btn-left wow fadeIn" data-wow-delay='0.8s'><i class="zmdi zmdi-menu"></i></a>
+
+        <h1  class="wow fadeIn" data-wow-delay='0.5s'>EcoCredit</h1>
     </div>
 
-    <div data-role="main" class="ui-content">
-        <nd2-include data-src="res/top-up.html"></nd2-include>
+    <div role="main" class="ui-content" data-inset="false">
+
+        <div class="w3-responsive" data-role="nd2tab" data-tab="tabToday">
+            <div class="nd2-card">
+
+                <div data-role="main" class="ui-content">
+                    <nd2-include data-src="res/top-up.html"></nd2-include>
+                </div>
+                <br><br>
+
+            </div>
+        </div>
+
+        <div class="w3-responsive" data-role="nd2tab" data-tab="tabCourses">
+
+            <br><br><br>
+        </div>
+
+        <div class="w3-responsive" data-role="nd2tab" data-tab="tabReminders">
+            <div >
+                Loading...
+            </div>
+            <br><br><br><br>
+        </div>
+
+        <div class="w3-responsive" data-role="nd2tab" data-tab="tabLinks">
+            <br>
+            <ul data-role="listview" data-icon="false" >
+                <li class="w3-hide" data-role="list-divider">
+                    Useful Links
+                </li>
+            </ul>
+            <br><br><br>
+        </div>
     </div>
+
+    <div data-role="footer" class="w3-bottom w3-theme w3-center w3-hide">
+        <ul data-role="nd2tabs" data-swipe="false" style="margin: 0!important;">
+            <li  class="homeTime footerTab" data-tab="tabToday" data-tab-active="true"
+                 onclick="goToPage('timetable')">
+                <i class="material-icons">table_chart</i>
+            </li>
+            <li class="homeReminder footerTab" data-tab="tabReminders" data-tab-active="false"
+                onclick="goToPage('reminders')">
+                <i class="material-icons">question_answer</i>
+            </li>
+            <li class="homeCourse footerTab" data-tab="tabCourses" data-tab-active="false"
+                onclick="goToPage('courses')">
+                <i class="material-icons">turned_in</i>
+            </li>
+            <li class="homeLinks footerTab" data-tab="tabLinks" data-tab-active="false"
+                onclick="goToPage('links')">
+                <i class="material-icons">link</i>
+            </li>
+        </ul>
+    </div>
+
 </div>
 
 
@@ -632,7 +809,7 @@
 <script type="text/javascript" src="js/browser.js"></script>
 <script type="text/javascript" src="js/api.js"></script>
 <script type="text/javascript" src="js/device.js"></script>
-<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+<!--<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>-->
 
 </body>
 </html>
